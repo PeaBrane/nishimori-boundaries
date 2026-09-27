@@ -1,0 +1,47 @@
+{
+ "E1 G1' formula": "PASS (exact)",
+ "E2 resultant identity": "PASS (exact)",
+ "E3 roots of p in [0,1] (exact count)": 2,
+ "E3 roots of p in (0,1) intervals (exact isolation)": [
+  [
+   "0",
+   "1/2"
+  ],
+  [
+   "1/2",
+   "1"
+  ]
+ ],
+ "E3 sign p(t^2) at t=0.65,0.66,0.94,0.95 (claimed +,-,-,+)": {
+  "0.65": 1,
+  "0.66": -1,
+  "0.94": -1,
+  "0.95": 1
+ },
+ "E4 (14) at p=3 <=> G1>=0": "PASS (exact)",
+ "E5 F' = tanh^2 cosh + 4 cosh^-3": "PASS (exact)",
+ "E6 (sinh cosh^-4)' identity": "PASS (exact)",
+ "E7 T'' closed form (Zhou (11)-G0)": "PASS (exact)",
+ "E8 IBP rule integrand (k cosh^(k-1) sinh)' = k^2 cosh^k - k(k-1) cosh^(k-2)": "PASS (exact)",
+ "E9 G0 rewrite": "PASS (exact)",
+ "I1 G1(tm) lower bound interval": [
+  "[-0.043061766205967397256026901269223567, -0.043061766205967397256026901269223567]",
+  "[-0.043061766205967397256026901265673693, -0.043061766205967397256026901265673693]"
+ ],
+ "I1 positive": false,
+ "I2 repaired cell lower bounds (interval, rounded down)": [
+  0.04070685747528872,
+  0.04055264769587633,
+  0.040426775769382306,
+  0.04033109433560376,
+  0.04026758133458496,
+  0.04023835025067974,
+  0.04024566137211805,
+  0.04029193418612462,
+  0.04037976104626852,
+  0.040511922268013555
+ ],
+ "I2 all positive": true,
+ "F1 max rel err": 0.00010617658797063417,
+ "F2 max abs diff": 3.907985046680551e-14
+}

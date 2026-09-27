@@ -1,0 +1,47 @@
+# bruteforce.py: exhaustive spin sums vs model.py law (float evidence)
+## unit U: K_U from exhaustive interior sums vs derived formula, all 2^(2b0+3) sign configurations
+unit b0=2 beta=0.37: max|K_brute - K_formula| = 2.78e-16; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=2 beta=1.1: max|K_brute - K_formula| = 5.55e-16; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=2 beta=2.3: max|K_brute - K_formula| = 8.88e-16; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=3 beta=0.37: max|K_brute - K_formula| = 9.99e-16; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=3 beta=1.1: max|K_brute - K_formula| = 2.00e-15; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=3 beta=2.3: max|K_brute - K_formula| = 3.55e-15; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=4 beta=0.37: max|K_brute - K_formula| = 3.50e-15; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=4 beta=1.1: max|K_brute - K_formula| = 7.11e-15; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=4 beta=2.3: max|K_brute - K_formula| = 4.44e-15; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=5 beta=0.37: max|K_brute - K_formula| = 7.16e-15; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=5 beta=1.1: max|K_brute - K_formula| = 2.24e-14; sign K_U = s_d always: True; kappa2<beta: True
+unit b0=5 beta=2.3: max|K_brute - K_formula| = 1.07e-14; sign K_U = s_d always: True; kappa2<beta: True
+## gadget H4(b0,k): law of K_H (signed atoms) from exhaustive sums vs model.Law DP
+H4(2,1) p=0.1 beta=0.4: max atom-mass discrepancy 1.39e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(2,1) p=0.1 beta=1.3: max atom-mass discrepancy 1.39e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(2,1) p=0.1 beta=2.2: max atom-mass discrepancy 1.39e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(2,1) p=0.23 beta=0.4: max atom-mass discrepancy 1.39e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(2,1) p=0.23 beta=1.3: max atom-mass discrepancy 1.39e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(2,1) p=0.23 beta=2.2: max atom-mass discrepancy 1.39e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(3,1) p=0.1 beta=0.4: max atom-mass discrepancy 1.78e-15 over 6 distinct K values; total mass brute 1.000000000000000
+H4(3,1) p=0.1 beta=1.3: max atom-mass discrepancy 1.78e-15 over 6 distinct K values; total mass brute 1.000000000000000
+H4(3,1) p=0.1 beta=2.2: max atom-mass discrepancy 1.78e-15 over 6 distinct K values; total mass brute 1.000000000000000
+H4(3,1) p=0.23 beta=0.4: max atom-mass discrepancy 8.88e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(3,1) p=0.23 beta=1.3: max atom-mass discrepancy 8.88e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(3,1) p=0.23 beta=2.2: max atom-mass discrepancy 8.88e-16 over 6 distinct K values; total mass brute 1.000000000000000
+H4(2,2) p=0.1 beta=0.4: max atom-mass discrepancy 3.06e-14 over 12 distinct K values; total mass brute 1.000000000000001
+H4(2,2) p=0.1 beta=1.3: max atom-mass discrepancy 3.06e-14 over 12 distinct K values; total mass brute 1.000000000000001
+H4(2,2) p=0.1 beta=2.2: max atom-mass discrepancy 3.06e-14 over 12 distinct K values; total mass brute 1.000000000000001
+H4(2,2) p=0.23 beta=0.4: max atom-mass discrepancy 2.59e-14 over 12 distinct K values; total mass brute 1.000000000000001
+H4(2,2) p=0.23 beta=1.3: max atom-mass discrepancy 2.59e-14 over 12 distinct K values; total mass brute 1.000000000000001
+H4(2,2) p=0.23 beta=2.2: max atom-mass discrepancy 2.59e-14 over 12 distinct K values; total mass brute 1.000000000000001
+H4(4,1) p=0.1 beta=0.4: max atom-mass discrepancy 2.22e-15 over 6 distinct K values; total mass brute 1.000000000000001
+H4(4,1) p=0.1 beta=1.3: max atom-mass discrepancy 2.22e-15 over 6 distinct K values; total mass brute 1.000000000000001
+H4(4,1) p=0.1 beta=2.2: max atom-mass discrepancy 2.22e-15 over 6 distinct K values; total mass brute 1.000000000000001
+H4(4,1) p=0.23 beta=0.4: max atom-mass discrepancy 1.05e-14 over 6 distinct K values; total mass brute 1.000000000000001
+H4(4,1) p=0.23 beta=1.3: max atom-mass discrepancy 1.05e-14 over 6 distinct K values; total mass brute 1.000000000000001
+H4(4,1) p=0.23 beta=2.2: max atom-mass discrepancy 1.05e-14 over 6 distinct K values; total mass brute 1.000000000000001
+WORST gadget law discrepancy: 3.06e-14
+## Nishimori identities at beta = gamma(p) from exhaustive sums
+H4(2,1) p=0.1: |E tanh K - E tanh^2 K| = 5.6e-17, |E e^-K - E sech K| = 2.2e-16, |v_brute - v_model| = 2.2e-16
+H4(2,1) p=0.23: |E tanh K - E tanh^2 K| = 4.9e-17, |E e^-K - E sech K| = 3.3e-16, |v_brute - v_model| = 1.1e-16
+H4(3,1) p=0.1: |E tanh K - E tanh^2 K| = 0.0e+00, |E e^-K - E sech K| = 2.2e-16, |v_brute - v_model| = 2.2e-16
+H4(3,1) p=0.23: |E tanh K - E tanh^2 K| = 1.1e-16, |E e^-K - E sech K| = 2.2e-16, |v_brute - v_model| = 3.3e-16
+H4(2,2) p=0.1: |E tanh K - E tanh^2 K| = 5.0e-16, |E e^-K - E sech K| = 6.7e-16, |v_brute - v_model| = 1.3e-15
+H4(2,2) p=0.23: |E tanh K - E tanh^2 K| = 3.2e-16, |E e^-K - E sech K| = 3.3e-16, |v_brute - v_model| = 8.9e-16

@@ -1,0 +1,73 @@
+claims.json sha256 6c4fd753500fb7e929ddfde09bfabddccf923dee1e85a9f00655d7f6a82a9ee3
+(1) e in [ 2.718281828286 , 2.718281828607 ]
+    2 beta_1 = 24577/6250 < 4: True
+    e^4 < 55: True (e_hi^4 = 54.598150)
+    55 < 9991/9 < 7600: True
+    7600 < e^9: True (e_lo^9 = 8103.084)
+    9 < 2 beta_2 = 98231/10000: True
+    hence beta_1 < gamma0 = (1/2) log(9991/9) < beta_2; also beta_hot < beta_1: True, beta_2 < beta_c: True
+(2) gamma0 in [3.506107694698399605, 3.506107694698399605]
+    beta_hot                     beta = 1.542350; beta/gamma0 in [0.4399037720, 0.4399037720]; floor4 0.4399 ceil4 0.4400 | floor6 0.439903 ceil6 0.439904
+    beta_hot3                    beta = 1.351830; beta/gamma0 in [0.3855643117, 0.3855643117]; floor4 0.3855 ceil4 0.3856 | floor6 0.385564 ceil6 0.385565
+    beta_1 (W+)                  beta = 1.966160; beta/gamma0 in [0.5607814053, 0.5607814053]; floor4 0.5607 ceil4 0.5608 | floor6 0.560781 ceil6 0.560782
+    beta_2 (W+)                  beta = 4.911550; beta/gamma0 in [1.4008554293, 1.4008554293]; floor4 1.4008 ceil4 1.4009 | floor6 1.400855 ceil6 1.400856
+    beta_1' (W2)                 beta = 2.016920; beta/gamma0 in [0.5752589982, 0.5752589982]; floor4 0.5752 ceil4 0.5753 | floor6 0.575258 ceil6 0.575259
+    beta_2' (W2)                 beta = 4.795750; beta/gamma0 in [1.3678273509, 1.3678273509]; floor4 1.3678 ceil4 1.3679 | floor6 1.367827 ceil6 1.367828
+    beta_c                       beta = 6.985540; beta/gamma0 in [1.9923917370, 1.9923917370]; floor4 1.9923 ceil4 1.9924 | floor6 1.992391 ceil6 1.992392
+    5/2 (Lemma H range)          beta = 2.500000; beta/gamma0 in [0.7130414173, 0.7130414173]; floor4 0.7130 ceil4 0.7131 | floor6 0.713041 ceil6 0.713042
+    band lo 21037/10000          beta = 2.103700; beta/gamma0 in [0.6000100919, 0.6000100919]; floor4 0.6000 ceil4 0.6001 | floor6 0.600010 ceil6 0.600011
+    band hi 11833/2500           beta = 4.733200; beta/gamma0 in [1.3499870546, 1.3499870546]; floor4 1.3499 ceil4 1.3500 | floor6 1.349987 ceil6 1.349988
+    band lo 2279/1000            beta = 2.279000; beta/gamma0 in [0.6500085561, 0.6500085561]; floor4 0.6500 ceil4 0.6501 | floor6 0.650008 ceil6 0.650009
+    band hi 45579/10000          beta = 4.557900; beta/gamma0 in [1.2999885905, 1.2999885905]; floor4 1.2999 ceil4 1.3000 | floor6 1.299988 ceil6 1.299989
+    band lo 24543/10000          beta = 2.454300; beta/gamma0 in [0.7000070202, 0.7000070202]; floor4 0.7000 ceil4 0.7001 | floor6 0.700007 ceil6 0.700008
+    band hi 42073/10000          beta = 4.207300; beta/gamma0 in [1.1999916621, 1.1999916621]; floor4 1.1999 ceil4 1.2000 | floor6 1.199991 ceil6 1.199992
+    sharp W plus 98303/50000     beta = 1.966060; beta/gamma0 in [0.5607528836, 0.5607528836]; floor4 0.5607 ceil4 0.5608 | floor6 0.560752 ceil6 0.560753
+    sharp W plus 98233/20000     beta = 4.911650; beta/gamma0 in [1.4008839510, 1.4008839510]; floor4 1.4008 ceil4 1.4009 | floor6 1.400883 ceil6 1.400884
+    sharp W bb 100841/50000      beta = 2.016820; beta/gamma0 in [0.5752304765, 0.5752304765]; floor4 0.5752 ceil4 0.5753 | floor6 0.575230 ceil6 0.575231
+    sharp W bb 95917/20000       beta = 4.795850; beta/gamma0 in [1.3678558726, 1.3678558726]; floor4 1.3678 ceil4 1.3679 | floor6 1.367855 ceil6 1.367856
+    sharp hot 38559/25000        beta = 1.542360; beta/gamma0 in [0.4399066242, 0.4399066242]; floor4 0.4399 ceil4 0.4400 | floor6 0.439906 ceil6 0.439907
+    sharp hot3 8449/6250         beta = 1.351840; beta/gamma0 in [0.3855671639, 0.3855671639]; floor4 0.3855 ceil4 0.3856 | floor6 0.385567 ceil6 0.385568
+    cold sharp 698553/100000     beta = 6.985530; beta/gamma0 in [1.9923888848, 1.9923888848]; floor4 1.9923 ceil4 1.9924 | floor6 1.992388 ceil6 1.992389
+    (1/2) log(2+sqrt3) in [0.658478948462408, 0.658478948462408] ; / gamma0 in [0.187809105082, 0.187809105082]
+(3) lower bounds rounded down, upper bounds rounded up
+    w_H(98303/50000) >= 0.2748299423741: display >= 0.274829 or 0.274829942
+    w_H(98233/20000) >= 0.2748110420291: display >= 0.274811 or 0.274811042
+    w_H(100841/50000) >= 0.2582258811175: display >= 0.258225 or 0.258225881
+    w_H(95917/20000) >= 0.2582103257129: display >= 0.258210 or 0.258210325
+    pbar_upper_at_beta_hot = 0.499998297271899: display <= 0.499998298 / 0.499998297272
+    u_upper_at_beta_hot = 0.333331819798961: display <= 0.333331820 / 0.333331819799
+    pbar_upper_at_beta_hot3 = 0.333330519697880: display <= 0.333330520 / 0.333330519698
+    lemma_H_free_cover pbar_half sup = 0.4999991087773: display <= 0.49999911
+    lemma_H_free_cover u_third sup = 0.3333325387506: display <= 0.33333254
+    lemma_H_free_cover pbar_third sup = 0.3333323755540: display <= 0.33333238
+    hot sharpness pbar_lower = 0.500006548357029: display >= 0.500006548
+    hot sharpness u_lower = 0.333339154120548: display >= 0.333339154
+    hot sharpness pbar3_lower = 0.333339487852251: display >= 0.333339487
+    p1 = 1/1000: V = 0.216305368172; vP_lo - V = 6.102071e-03 (display >= 6102.07e-6); relative to vP_lo >= 2.74 %; h(V) float 0.8645081053777953
+    p1 = 529/500000: V = 0.222406105286; vP_lo - V = 1.334166e-06 (display >= 1.33e-6); relative to vP_lo >= 0.00 %; h(V) float 0.999967906114406
+    N sharpness v_lower = 0.222416458125952: display >= 0.222416458125
+    display p = 1/2000: v_H in [0.151912767453770, 0.151912767453771]: truncated 6 digits 0.151912
+    display p = 7/10000: v_H in [0.180931598536875, 0.180931598536876]: truncated 6 digits 0.180931
+    display p = 9/10000: v_H in [0.205295045989684, 0.205295045989685]: truncated 6 digits 0.205295
+    display p = 1/1000: v_H in [0.216305368171488, 0.216305368171489]: truncated 6 digits 0.216305
+    display p = 529/500000: v_H in [0.222406105285760, 0.222406105285761]: truncated 6 digits 0.222406
+    display p = 10581/10000000: v_H in [0.222416458125952, 0.222416458125953]: truncated 6 digits 0.222416
+    display p = 11/10000: v_H in [0.226706642765270, 0.226706642765271]: truncated 6 digits 0.226706
+    display p = 3/2500: v_H in [0.236586916634238, 0.236586916634239]: truncated 6 digits 0.236586
+    1 - 2P(W_STAR) = 2.0557723765e-05: display >= 2.05e-5
+    min W_up over W+ cells = 0.207298547553 (display 0.207298)
+    p1 - p0 = 1/10000 = 1.000e-04; (p1 - p0)/p0 = 11.1111 %
+    p1 - p0 = 79/500000 = 1.580e-04; (p1 - p0)/p0 = 17.5556 %
+(4) sign-disorder floor sum_n w_n sqrt(1 - A_n^2) = 0.2052950459896849433
+    v_H(gamma0) = F(gamma0, 1/2)                  = 0.2052950459896849433 ; difference 6.68e-52
+    max_n |A_n - x_n(gamma0)| = 2.67e-50 (per-class Nishimori relation)
+    beta/gamma0 = 0.3: floor = 0.20529504599 (beta-independent); w_H = 0.90211149 at s* = 1.0
+    beta/gamma0 = 0.7: floor = 0.20529504599 (beta-independent); w_H = 0.205712061 at s* = 0.933
+    beta/gamma0 = 0.8: floor = 0.20529504599 (beta-independent); w_H = 0.205707658 at s* = 0.7242
+    beta/gamma0 = 1.2: floor = 0.20529504599 (beta-independent); w_H = 0.213461406 at s* = 0.4609
+    beta/gamma0 = 2.0: floor = 0.20529504599 (beta-independent); w_H = 0.773444554 at s* = 0.2805
+    for comparison: q := P(K_H < 0) = 0.010693719 ; 2 sqrt(q(1-q)) = 0.205712063864 (not a lower bound on w_H)
+    beta/gamma0 = 0.65: w_H = 0.209258475442 at s* = 1.0; |tanh K_H| over atoms of weight > 1e-6 in [0.77754294, 0.77754294]
+    beta/gamma0 = 0.7: w_H = 0.205712060593 at s* = 0.933; |tanh K_H| over atoms of weight > 1e-6 in [0.83761247, 0.83761281]
+    beta/gamma0 = 0.75: w_H = 0.20571183595 at s* = 0.8156; |tanh K_H| over atoms of weight > 1e-6 in [0.88267081, 0.88269052]
+    beta/gamma0 = 0.8: w_H = 0.205707657528 at s* = 0.7242; |tanh K_H| over atoms of weight > 1e-6 in [0.91572552, 0.91603942]

@@ -1,0 +1,203 @@
+ok   Table 1, (W) q_0, p = 3: printed 814809/1000000 (printed==value) 814809/1000000
+ok   Table 1, (W) m_1, p = 3: printed 11/25 (printed==value) 11/25
+ok   Table 1, (W) q_0, p = 4: printed 948189/1000000 (printed==value) 948189/1000000
+ok   Table 1, (W) m_1, p = 4: printed 16/25 (printed==value) 16/25
+ok   Table 1, (W) Phi(q_0) >=, p = 3: printed 5.0150255e-4 (printed<=value) 0.000501502555931
+ok   Table 1, (W) Phi(q_0) >= (second implementation), p = 3: printed 5.0150261e-4 (printed<=value) 0.000501502611422907
+ok   Table 1, (W) Phi(q_0) >=, p = 4: printed 2.2785439e-4 (printed<=value) 0.000227854397174
+ok   Table 1, (W) Phi(q_0) >= (second implementation), p = 4: printed 2.2785462e-4 (printed<=value) 0.00022785462494830244
+ok   Table 1, (W) xi(m_1) - I(m_1) <=, p = 3: printed 3.4561599e-4 (printed>=value) 0.000345615983850
+ok   Table 1, (W) xi(m_1) - I(m_1) <=, p = 4: printed -1.2223937e-3 (printed>=value) -0.00122239372225
+ok   Table 1, (W) margin >=, p = 3: printed 1.5588657e-4 (printed<=value) 0.000155886572082
+ok   Table 1, (W) margin >= (second implementation), p = 3: printed 1.5588662e-4 (printed<=value) 0.00015588662757377115
+ok   Table 1, (W) margin >=, p = 4: printed 2.2785439e-4 (printed<=value) 0.000227854397174
+ok   Table 1, (W) margin >= (second implementation), p = 4: printed 2.2785462e-4 (printed<=value) 0.00022785462494830244
+ok   Table 1, (L) cover of [m_lo, 1], p = 3: printed 75 (len==) 75
+ok   Table 1, (L) cover of [m_lo, 1], p = 4: printed 67 (len==) 67
+ok   Table 1, (L) max_i U_i <=, p = 3: printed 2.0451151094 (printed>=value) 2.0451151093760425
+ok   Table 1, (L) max_i U_i <=, p = 4: printed 2.7532998672 (printed>=value) 2.7532998671863287
+ok   Table 1, (F) Par(mu*, 0) >=, p = 3: printed 2.04575395212 (printed<=value) 2.0457539521230412
+ok   Table 1, (F) Par(mu*, 0) >=, p = 4: printed 2.75458158138 (printed<=value) 2.754581581382262
+ok   Table 1, (F) certified min D >=, p = 3: printed -6.8e-5 (printed<=value) -6.773987891592018e-05
+ok   Table 1, (F) certified min D >=, p = 4: printed -4.9e-6 (printed<=value) -4.885442554682566e-06
+ok   Table 1, (F) certified min D >= (second implementation), p = 3: printed -6.6e-7 (printed<=value) -6.511702799749485e-07
+ok   Table 1, (F) certified min D >= (second implementation), p = 4: printed -1.5e-7 (printed<=value) -1.4381087700757697e-07
+ok   Table 1, (F) L_F, p = 3: printed 2.0456862122 (printed<=value) 2.045686212244125
+ok   Table 1, (F) L_F, p = 4: printed 2.7545766959 (printed<=value) 2.754576695939707
+ok   Table 1, (F) L_F (second implementation), p = 3: printed 2.0457533010 (printed<=value) 2.0457533010283253
+ok   Table 1, (F) L_F (second implementation), p = 4: printed 2.7545814375 (printed<=value) 2.7545814375719067
+ok   Table 1, cold margin, p = 3: printed 5.7e-4 (printed<=value) 0.0005711028680823738
+ok   Table 1, cold margin, p = 4: printed 1.27e-3 (printed<=value) 0.0012768287533782008
+ok   Table 1, cold margin (second implementation), p = 3: printed 6.3e-4 (printed<=value) 0.0006381917461468212
+ok   Table 1, cold margin (second implementation), p = 4: printed 1.28e-3 (printed<=value) 0.0012815714912215218
+ok   Table 2, p = 3, Lambda_c: printed 2.3396416 (rounds_to) [2.339641575351550517045963342757752799272989887017618142...
+ok   Table 2, p = 3, kappa_p >=: printed 0.0303915 (printed<=value) 0.030391572475015182
+ok   Table 2, p = 3, lambda >=: printed 0.330457 (printed<=value) 0.33045788385416375
+ok   Table 2, p = 3, det S >=: printed 0.4471 (printed<=value) 0.44711455966040237
+ok   Table 2, p = 3, B''(mu) <=: printed -1.5592 (printed>=value) -1.559220100688175
+ok   Table 2, p = 3, (N3) margin >=: printed 2.062 (printed<=value) 2.062222051326505
+ok   Table 2, p = 4, Lambda_c: printed 4.4788891 (rounds_to) [4.478889080851379048064950035389947377195632833891733136...
+ok   Table 2, p = 4, kappa_p >=: printed 0.0131494 (printed<=value) 0.013149434545281892
+ok   Table 2, p = 4, lambda >=: printed 0.574280 (printed<=value) 0.5742805778584997
+ok   Table 2, p = 4, det S >=: printed 0.3432 (printed<=value) 0.34322293565029677
+ok   Table 2, p = 4, B''(mu) <=: printed -10.484 (printed>=value) -10.484492591978343
+ok   Table 2, p = 4, (N3) margin >=: printed 4.832 (printed<=value) 4.832746859405339
+ok   Table 2, p = 5, Lambda_c: printed 6.2996014 (rounds_to) [6.299601448512798703065268085765598003485756966750032837...
+ok   Table 2, p = 5, kappa_p >=: printed 0.00536355 (printed<=value) 0.005363556846758065
+ok   Table 2, p = 5, lambda >=: printed 0.734818 (printed<=value) 0.7348184508015694
+ok   Table 2, p = 5, det S >=: printed 0.2290 (printed<=value) 0.22900899646775819
+ok   Table 2, p = 5, B''(mu) <=: printed -38.830 (printed>=value) -38.83097408539258
+ok   Table 2, p = 5, (N3) margin >=: printed 7.286 (printed<=value) 7.28612476717713
+ok   Table 2, p = 6, Lambda_c: printed 7.9416230 (rounds_to) [7.941622996195943078123268172323326620989662516354917037...
+ok   Table 2, p = 6, kappa_p >=: printed 0.00227975 (printed<=value) 0.0022797574507232646
+ok   Table 2, p = 6, lambda >=: printed 0.836921 (printed<=value) 0.8369219063509633
+ok   Table 2, p = 6, det S >=: printed 0.1458 (printed<=value) 0.14580237329346932
+ok   Table 2, p = 6, B''(mu) <=: printed -111.40 (printed>=value) -111.4045261333484
+ok   Table 2, p = 6, (N3) margin >=: printed 9.562 (printed<=value) 9.562725372302468
+ok   Table 2, p = 7, Lambda_c: printed 9.4806791 (rounds_to) [9.480679087097137078278712425376287821864914945591430961...
+ok   Table 2, p = 7, kappa_p >=: printed 0.00100692 (printed<=value) 0.001006925751437979
+ok   Table 2, p = 7, lambda >=: printed 0.900932 (printed<=value) 0.9009324407884588
+ok   Table 2, p = 7, det S >=: printed 0.09040 (printed<=value) 0.09040065787627345
+ok   Table 2, p = 7, B''(mu) <=: printed -279.87 (printed>=value) -279.877122032494
+ok   Table 2, p = 7, (N3) margin >=: printed 11.73 (printed<=value) 11.733913915572035
+ok   Table 2, p = 8, Lambda_c: printed 10.958556 (rounds_to) [10.95855573891429577692245271575242932580723775307993260...
+ok   Table 2, p = 8, kappa_p >=: printed 4.57406e-4 (printed<=value) 0.0004574062277786652
+ok   Table 2, p = 8, lambda >=: printed 0.940569 (printed<=value) 0.9405693007592206
+ok   Table 2, p = 8, det S >=: printed 0.05495 (printed<=value) 0.05495748023311657
+ok   Table 2, p = 8, B''(mu) <=: printed -651.81 (printed>=value) -651.8190166217939
+ok   Table 2, p = 8, (N3) margin >=: printed 13.83 (printed<=value) 13.839768037429444
+ok   Table 2, p = 9, Lambda_c: printed 12.399558 (rounds_to) [12.39955754469029472068244419154226343880190919364632203...
+ok   Table 2, p = 9, kappa_p >=: printed 2.11906e-4 (printed<=value) 0.00021190611914439575
+ok   Table 2, p = 9, lambda >=: printed 0.964795 (printed<=value) 0.9647950954973012
+ok   Table 2, p = 9, det S >=: printed 0.03286 (printed<=value) 0.03286039499217505
+ok   Table 2, p = 9, B''(mu) <=: printed -1450.5 (printed>=value) -1450.591717929618
+ok   Table 2, p = 9, (N3) margin >=: printed 15.90 (printed<=value) 15.904664960369647
+ok   Table 2, p = 10, Lambda_c: printed 13.818281 (rounds_to) [13.81828132618619045241562727985219455191820064165700608...
+ok   Table 2, p = 10, kappa_p >=: printed 9.95243e-5 (printed<=value) 9.952431322906331e-05
+ok   Table 2, p = 10, lambda >=: printed 0.979400 (printed<=value) 0.9794005538816154
+ok   Table 2, p = 10, det S >=: printed 0.01936 (printed<=value) 0.019361781503510325
+ok   Table 2, p = 10, B''(mu) <=: printed -3138.7 (printed>=value) -3138.790658234506
+ok   Table 2, p = 10, (N3) margin >=: printed 17.94 (printed<=value) 17.943972576034152
+ok   Table 2, p = 11, Lambda_c: printed 15.223613 (rounds_to) [15.22361281449516847793102727588944875616280887715832064...
+ok   Table 2, p = 11, kappa_p >=: printed 4.71947e-5 (printed<=value) 4.719476616698554e-05
+ok   Table 2, p = 11, lambda >=: printed 0.988085 (printed<=value) 0.9880859615727052
+ok   Table 2, p = 11, det S >=: printed 0.01125 (printed<=value) 0.01125924731017969
+ok   Table 2, p = 11, B''(mu) <=: printed -6672.2 (printed>=value) -6672.290890992955
+ok   Table 2, p = 11, (N3) margin >=: printed 19.96 (printed<=value) 19.96746341197255
+ok   Table 2, p = 12, Lambda_c: printed 16.620966 (rounds_to) [16.62096619263302250704889564476549353780603962592736710...
+ok   Table 2, p = 12, kappa_p >=: printed 2.25347e-5 (printed<=value) 2.253476144848783e-05
+ok   Table 2, p = 12, lambda >=: printed 0.993182 (printed<=value) 0.9931829801706336
+ok   Table 2, p = 12, det S >=: printed 6.470e-3 (printed<=value) 0.006470844093253711
+ok   Table 2, p = 12, B''(mu) <=: printed -14022 (printed>=value) -14022.301098825888
+ok   Table 2, p = 12, (N3) margin >=: printed 21.98 (printed<=value) 21.98131422969404
+ok   Table 2, p = 13, Lambda_c: printed 18.013619 (rounds_to) [18.01361853297181828942081669006017949378111256068533828...
+ok   Table 2, p = 13, kappa_p >=: printed 1.08147e-5 (printed<=value) 1.0814719760872107e-05
+ok   Table 2, p = 13, lambda >=: printed 0.996137 (printed<=value) 0.9961373626687853
+ok   Table 2, p = 13, det S >=: printed 3.680e-3 (printed<=value) 0.003680030421182623
+ok   Table 2, p = 13, B''(mu) <=: printed -29246 (printed>=value) -29246.694847661616
+ok   Table 2, p = 13, (N3) margin >=: printed 23.98 (printed<=value) 23.98937725207591
+ok   Table 2, p = 14, Lambda_c: printed 19.403532 (rounds_to) [19.40353235152160493248996378370460609492498370666934235...
+ok   Table 2, p = 14, kappa_p >=: printed 5.21015e-6 (printed<=value) 5.21015169667585e-06
+ok   Table 2, p = 14, lambda >=: printed 0.997830 (printed<=value) 0.9978305361456232
+ok   Table 2, p = 14, det S >=: printed 2.073e-3 (printed<=value) 0.0020734223579279747
+ok   Table 2, p = 14, B''(mu) <=: printed -60685 (printed>=value) -60685.797154256245
+ok   Table 2, p = 14, (N3) margin >=: printed 25.99 (printed<=value) 25.99401606614323
+ok   Table 2, p = 15, Lambda_c: printed 20.791869 (rounds_to) [20.79186855648869052813115559818142927570224506451427176...
+ok   Table 2, p = 15, kappa_p >=: printed 2.51766e-6 (printed<=value) 2.5176699534970336e-06
+ok   Table 2, p = 15, lambda >=: printed 0.998791 (printed<=value) 0.9987910600246933
+ok   Table 2, p = 15, det S >=: printed 1.158e-3 (printed<=value) 0.0011585866928147742
+ok   Table 2, p = 15, B''(mu) <=: printed -1.2545e5 (printed>=value) -125457.73512900916
+ok   Table 2, p = 15, (N3) margin >=: printed 27.99 (printed<=value) 27.99665664677879
+ok   Table 2, p = 16, Lambda_c: printed 22.179305 (rounds_to) [22.17930533118750185598593153166381724499175410138765760...
+ok   Table 2, p = 16, kappa_p >=: printed 1.21958e-6 (printed<=value) 1.219585505206843e-06
+ok   Table 2, p = 16, lambda >=: printed 0.999331 (printed<=value) 0.9993310221796686
+ok   Table 2, p = 16, det S >=: printed 6.426e-4 (printed<=value) 0.0006426602467270843
+ok   Table 2, p = 16, B''(mu) <=: printed -2.5865e5 (printed>=value) -258652.07657356813
+ok   Table 2, p = 16, (N3) margin >=: printed 29.99 (printed<=value) 29.998145565417747
+ok   Table 2, p = 17, Lambda_c: printed 23.566234 (rounds_to) [23.56623415950456101269211460290533292817209670721630992...
+ok   Table 2, p = 17, kappa_p >=: printed 5.91990e-7 (printed<=value) 5.919903902251611e-07
+ok   Table 2, p = 17, lambda >=: printed 0.999632 (printed<=value) 0.9996321211622797
+ok   Table 2, p = 17, det S >=: printed 3.541e-4 (printed<=value) 0.0003541639329056744
+ok   Table 2, p = 17, B''(mu) <=: printed -5.3211e5 (printed>=value) -532114.3292969619
+ok   Table 2, p = 17, (N3) margin >=: printed 31.99 (printed<=value) 31.998978067757157
+ok   Table 2, p = 18, Lambda_c: printed 24.952879 (rounds_to) [24.95287856171162081954669549182551398319646957118482945...
+ok   Table 2, p = 18, kappa_p >=: printed 2.87857e-7 (printed<=value) 2.878572254845033e-07
+ok   Table 2, p = 18, lambda >=: printed 0.999798 (printed<=value) 0.9997988242487801
+ok   Table 2, p = 18, det S >=: printed 1.940e-4 (printed<=value) 0.000194047679051533
+ok   Table 2, p = 18, B''(mu) <=: printed -1.0927e6 (printed>=value) -1092793.1271546306
+ok   Table 2, p = 18, (N3) margin >=: printed 33.99 (printed<=value) 33.999440087930275
+ok   Table 2, p = 19, Lambda_c: printed 26.339365 (rounds_to) [26.33936490410573279344273418531539819621425349156678680...
+ok   Table 2, p = 19, kappa_p >=: printed 1.40185e-7 (printed<=value) 1.4018518582640713e-07
+ok   Table 2, p = 19, lambda >=: printed 0.999890 (printed<=value) 0.9998905341987708
+ok   Table 2, p = 19, det S >=: printed 1.057e-4 (printed<=value) 0.00010577013918836259
+ok   Table 2, p = 19, B''(mu) <=: printed -2.2409e6 (printed>=value) -2240960.3562532277
+ok   Table 2, p = 19, (N3) margin >=: printed 35.99 (printed<=value) 35.999694809408666
+ok   Table 2, p = 20, Lambda_c: printed 27.725764 (rounds_to) [27.72576400204514752050244206170592408342458978384781819...
+ok   Table 2, p = 20, kappa_p >=: printed 6.83617e-8 (printed<=value) 6.836176411635225e-08
+ok   Table 2, p = 20, lambda >=: printed 0.999940 (printed<=value) 0.9999407028280693
+ok   Table 2, p = 20, det S >=: printed 5.738e-5 (printed<=value) 5.7385306172840086e-05
+ok   Table 2, p = 20, B''(mu) <=: printed -4.5896e6 (printed>=value) -4589645.109016194
+ok   Table 2, p = 20, (N3) margin >=: printed 37.99 (printed<=value) 37.999834420313526
+ok   Table 2, p = 21, Lambda_c: printed 29.112115 (rounds_to) [29.11211523239792172759416726344318210316947913937471993...
+ok   Table 2, p = 21, kappa_p >=: printed 3.33771e-8 (printed<=value) 3.337712972285159e-08
+ok   Table 2, p = 21, lambda >=: printed 0.999968 (printed<=value) 0.9999680085796703
+ok   Table 2, p = 21, det S >=: printed 3.100e-5 (printed<=value) 3.10043161979316e-05
+ok   Table 2, p = 21, B''(mu) <=: printed -9.3893e6 (printed>=value) -9389379.63968163
+ok   Table 2, p = 21, (N3) margin >=: printed 39.99 (printed<=value) 39.99991054026096
+ok   Table 2, p = 22, Lambda_c: printed 30.498440 (rounds_to) [30.49844034024673354227059499731842437943226509651451183...
+ok   Table 2, p = 22, kappa_p >=: printed 1.63139e-8 (printed<=value) 1.6313921924989976e-08
+ok   Table 2, p = 22, lambda >=: printed 0.999982 (printed<=value) 0.9999828033780515
+ok   Table 2, p = 22, det S >=: printed 1.668e-5 (printed<=value) 1.6687883725511238e-05
+ok   Table 2, p = 22, B''(mu) <=: printed -1.9189e7 (printed>=value) -19189240.096101288
+ok   Table 2, p = 22, (N3) margin >=: printed 41.99 (printed<=value) 41.999951848892586
+ok   Table 2, p = 23, Lambda_c: printed 31.884751 (rounds_to) [31.88475126070971711507936953333101506608846871529488421...
+ok   Table 2, p = 23, kappa_p >=: printed 7.98175e-9 (printed<=value) 7.981756176190159e-09
+ok   Table 2, p = 23, lambda >=: printed 0.999990 (printed<=value) 0.9999907868666075
+ok   Table 2, p = 23, det S >=: printed 8.951e-6 (printed<=value) 8.951359081139063e-06
+ok   Table 2, p = 23, B''(mu) <=: printed -3.9181e7 (printed>=value) -39181632.04880712
+ok   Table 2, p = 23, (N3) margin >=: printed 43.99 (printed<=value) 43.99997417182265
+ok   Table 2, p = 24, Lambda_c: printed 33.271055 (rounds_to) [33.27105450904467907675353944204787906004724063704592722...
+ok   Table 2, p = 24, kappa_p >=: printed 3.90870e-9 (printed<=value) 3.908700033142969e-09
+ok   Table 2, p = 24, lambda >=: printed 0.999995 (printed<=value) 0.9999950790111478
+ok   Table 2, p = 24, det S >=: printed 4.786e-6 (printed<=value) 4.786487335894658e-06
+ok   Table 2, p = 24, B''(mu) <=: printed -7.9936e7 (printed>=value) -79936521.08769044
+ok   Table 2, p = 24, (N3) margin >=: printed 45.99 (printed<=value) 45.9999861891129
+ok   Table 2, p = 25, Lambda_c: printed 34.657354 (rounds_to) [34.65735362463899735929022949812635677650367943378096350...
+ok   Table 2, p = 25, kappa_p >=: printed 1.91570e-9 (printed<=value) 1.915702194876872e-09
+ok   Table 2, p = 25, lambda >=: printed 0.999997 (printed<=value) 0.9999973788679785
+ok   Table 2, p = 25, det S >=: printed 2.552e-6 (printed<=value) 2.5521155277087296e-06
+ok   Table 2, p = 25, B''(mu) <=: printed -1.6295e8 (printed>=value) -162957786.99217772
+ok   Table 2, p = 25, (N3) margin >=: printed 47.99 (printed<=value) 47.999992636150075
+ok   Table 3, (C1) beta_hot: printed 30847/20000 (printed==value) 30847/20000
+ok   Table 3, (C1) pbar_H(beta) < 1/2 on (0, beta_hot]: printed certified (printed==value) certified
+ok   Table 3, (C2) cells certified: printed certified (printed==value) certified
+ok   Table 3, (C7), (C8) Nishimori-line claims certified: printed certified (printed==value) certified
+ok   Table 3, (C2) number of cells: printed 1202 (printed==value) 1202
+ok   Table 3, (C2) W_star: printed 274797/1000000 (printed==value) 274797/1000000
+ok   Table 3, (C3) 9 W_star^2 < 1: printed true (flag) True
+ok   Table 3, (C3) 2 P(W_star) < 1: printed true (flag) True
+ok   Table 3, (C4) pbar_H(beta) < 1/2 for all beta >= 349277/50000: printed True (flag) True
+ok   Table 3, (C5) V: printed 20529504599/100000000000 (printed==value) 20529504599/100000000000
+ok   Table 3, (C5) 1 - h(V) >=: printed 0.332172142 (printed<=value) 0.332172142741
+ok   Table 3, (C5) 1 - 2P(V) >= 0.91700: printed True (flag) True
+ok   Table 3, (C6) kappabar_H >=: printed 0.4914640678 (printed<=value) 4914640678396
+ok   Table 3, (C7) V_1: printed 54076342043/250000000000 (printed==value) 54076342043/250000000000
+ok   Table 3, (C7) h(V_1) <=: printed 0.864508105378 (printed>=value) 0.8645081053777953
+ok   Table 3, (C8) W_N: printed 236586916634239/1000000000000000 (printed==value) 236586916634239/1000000000000000
+ok   Table 3, (C8) 1 - 2P(W_N) >= 0.770991: printed True (flag) True
+ok   Table 4, band 1, lower end: printed 21037/10000 (printed==value) 21037/10000
+ok   Table 4, band 1, upper end: printed 11833/2500 (printed==value) 11833/2500
+ok   Table 4, band 1, lower end in units of beta_N (rounded inward): printed 0.600011 (printed>=value) 0.6000100918694008
+ok   Table 4, band 1, upper end in units of beta_N (rounded inward): printed 1.349987 (printed<=value) 1.3499870546352846
+ok   Table 4, band 1, E Y >=: printed 0.593675 (printed<=value) 23747/40000
+ok   Table 4, band 2, lower end: printed 2279/1000 (printed==value) 2279/1000
+ok   Table 4, band 2, upper end: printed 45579/10000 (printed==value) 45579/10000
+ok   Table 4, band 2, lower end in units of beta_N (rounded inward): printed 0.650009 (printed>=value) 0.650008556053793
+ok   Table 4, band 2, upper end in units of beta_N (rounded inward): printed 1.299988 (printed<=value) 1.2999885904508923
+ok   Table 4, band 2, E Y >=: printed 0.780507 (printed<=value) 780507/1000000
+ok   Table 4, band 3, lower end: printed 24543/10000 (printed==value) 24543/10000
+ok   Table 4, band 3, upper end: printed 42073/10000 (printed==value) 42073/10000
+ok   Table 4, band 3, lower end in units of beta_N (rounded inward): printed 0.700008 (printed>=value) 0.7000070202381853
+ok   Table 4, band 3, upper end in units of beta_N (rounded inward): printed 1.199991 (printed<=value) 1.1999916620821078
+ok   Table 4, band 3, E Y >=: printed 0.885170 (printed<=value) 88517/100000
+202 of 202 printed values follow from the stored outputs.

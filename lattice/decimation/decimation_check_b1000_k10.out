@@ -1,0 +1,41 @@
+== b0=1000 k=10 p=9/10000 gamma=3.5061076947
+P1=0.486382384593 P2=0.338879525353 P3=0.174738090055 q=0.417484500222
+graph: 20013 vertices, 20032 edges, I=20011
+  beta=1.0g sample 0: K_SP=2.17656109585298 K_closed=2.17656109585298 |diff|=3.11e-60
+  beta=1.0g sample 1: K_SP=2.26485015819738 K_closed=2.26485015819738 |diff|=7.16e-60
+  beta=1.0g sample 2: K_SP=2.35184300622261 K_closed=2.35184300622261 |diff|=1.31e-59
+  beta=2.15g sample 0: K_SP=0.00912524733117579 K_closed=0.00912524733117579 |diff|=1.22e-63
+  beta=2.15g sample 1: K_SP=6.56517623792464 K_closed=6.56517623792464 |diff|=0.0
+  beta=2.15g sample 2: K_SP=0.153994742431109 K_closed=0.153994742431109 |diff|=1.94e-62
+  beta=3.0g sample 0: K_SP=0.00412528410530427 K_closed=0.00412528410530427 |diff|=6.08e-64
+  beta=3.0g sample 1: K_SP=0.111681422105561 K_closed=0.111681422105561 |diff|=0.0
+  beta=3.0g sample 2: K_SP=9.47860231288966 K_closed=9.47860231288966 |diff|=6.65e-54
+1. worst |K_SP - K_closed| = 6.65e-54
+2. exact t_U (bridge code, float) = 0.996403998527353  (E tanh^2 = 0.996403998527353)
+   A(j)=E tanh K_U(alpha,u_j) vs chain block C(j+1,b0-j+2): violations=0 []
+     j=0: exact A=0.9964039985 chain C=0.9964035995
+     j=1: exact A=0.9928212517 chain C=0.9928208546
+     j=250: exact A=0.4290136883 chain C=0.4290135702
+     j=500: exact A=0.2819963937 chain C=0.2819962404
+     j=750: exact A=0.4277648217 chain C=0.4277642862
+     j=999: exact A=0.9892533086 chain C=0.9892517189
+     j=1000: exact A=0.9928224508 chain C=0.9928208546
+   EXACT kappa-bar = 0.491464471 (khat 0.491477177);  own chain-bound kappa-bar = 0.491464068 (khat 0.491476774)
+3. v_H(gamma): E e^-K = 0.2052950459896849  E sech K = 0.2052950459896849  mass=1.0; t_H: E tanh=0.957689837312 E tanh^2=0.957689837312
+   h(v_H) = 0.667827857254; D_bound(chain) = khat^2 (1-h) = 0.0802359881929
+   beta=1g: u_H=0.9786125621 (mixture 0.9786125621) pbar_H=0.9891888062
+   beta=2g: u_H=0.3822358756 (mixture 0.3822358756) pbar_H=0.4945384844
+   beta=2.02g: u_H=0.3713217755 (mixture 0.3713217755) pbar_H=0.4810841601
+   beta=2.1g: u_H=0.3383087189 (mixture 0.3383087189) pbar_H=0.4392166863
+   beta=2.117g: u_H=0.3331278985 (mixture 0.3331278985) pbar_H=0.432482841
+   beta=2.15g: u_H=0.3245300837 (mixture 0.3245300837) pbar_H=0.4212072416
+   beta=2.2g: u_H=0.3145441754 (mixture 0.3145441754) pbar_H=0.4079512958
+   beta=2.22g: u_H=0.3113841655 (mixture 0.3113841655) pbar_H=0.4037201072
+   beta=2.25g: u_H=0.3073693091 (mixture 0.3073693091) pbar_H=0.3983187087
+   beta=2.5g: u_H=0.2928958655 (mixture 0.2928958655) pbar_H=0.3786042891
+   beta=2.6g: u_H=0.2913401239 (mixture 0.2913401239) pbar_H=0.3764621309
+   beta=3g: u_H=0.2898972204 (mixture 0.2898972204) pbar_H=0.3744712633
+   beta=5g: u_H=0.2898041286 (mixture 0.2898041286) pbar_H=0.3743426831
+   beta=10g: u_H=0.2898041285 (mixture 0.2898041285) pbar_H=0.374342683
+   beta=40g: u_H=0.2898041285 (mixture 0.2898041285) pbar_H=0.374342683
+   limits beta->inf: u_H -> 0.289804128488, pbar_H -> 0.374342682992

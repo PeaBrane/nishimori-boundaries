@@ -1,0 +1,21 @@
+{
+ "P_mu_star": [
+  2.0457539521986052,
+  2.0457539521986066
+ ],
+ "min_D_lower": -6.511702799749485e-07,
+ "min_D_upper_grid": -6.467719019349406e-07,
+ "P_plus_minD_lower": 2.0457533010283253,
+ "L_certified_max": 2.0451151092821784,
+ "margin": 0.0006381917461468212,
+ "decision_LB_exceeds_Lmax": true,
+ "exceeds_2_0456862": true,
+ "generator_claims_ok": {
+  "P_in_claim": true,
+  "minD_ge_claim": true
+ },
+ "W_Delta": [
+  -2.9515030215066633e-07,
+  -2.951503021506662e-07
+ ]
+}

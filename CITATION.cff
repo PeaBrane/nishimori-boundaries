@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this companion repository and the associated paper."
+title: "Computer-assisted certificates for Vertical and reentrant ferromagnetic boundaries below the Nishimori point"
+type: software
+authors:
+  - family-names: Pei
+    given-names: Yan Ru
+    email: yanrpei@gmail.com
+date-released: 2026-09-27
+url: "https://github.com/PeaBrane/nishimori-boundaries"
+repository-code: "https://github.com/PeaBrane/nishimori-boundaries"
+abstract: >-
+  Programs, frozen inputs and certified outputs behind the computer-assisted statements of
+  Vertical and reentrant ferromagnetic boundaries below the Nishimori point: the accumulation
+  certificate of the Sherrington-Kirkpatrick model, the p = 3 and p = 4 certificates, the
+  triple-point certificates for 3 <= p <= 25 and for large p, and the certified inputs of the
+  decorated-lattice theorem.
+preferred-citation:
+  type: article
+  title: "Vertical and reentrant ferromagnetic boundaries below the Nishimori point"
+  authors:
+    - family-names: Pei
+      given-names: Yan Ru
+  year: 2026

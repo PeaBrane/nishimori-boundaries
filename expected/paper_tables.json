@@ -1,0 +1,2193 @@
+{
+ "description": "Values printed in the tables of the paper, with the stored output that implies each. printed<=value: the printed lower bound does not exceed the certified value; printed>=value: the printed upper bound is not below it; rounds_to: the printed digits are the correctly rounded centre of the Arb ball; flag: the stored decision is true. checks/paper_tables.py evaluates every entry.",
+ "entries": [
+  {
+   "where": "Table 1, (W) q_0, p = 3",
+   "printed": "814809/1000000",
+   "relation": "printed==value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "3",
+    "q0"
+   ]
+  },
+  {
+   "where": "Table 1, (W) m_1, p = 3",
+   "printed": "11/25",
+   "relation": "printed==value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "3",
+    "m1"
+   ]
+  },
+  {
+   "where": "Table 1, (W) q_0, p = 4",
+   "printed": "948189/1000000",
+   "relation": "printed==value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "4",
+    "q0"
+   ]
+  },
+  {
+   "where": "Table 1, (W) m_1, p = 4",
+   "printed": "16/25",
+   "relation": "printed==value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "4",
+    "m1"
+   ]
+  },
+  {
+   "where": "Table 1, (W) Phi(q_0) >=, p = 3",
+   "printed": "5.0150255e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "3",
+    "Phi_q0",
+    0
+   ]
+  },
+  {
+   "where": "Table 1, (W) Phi(q_0) >= (second implementation), p = 3",
+   "printed": "5.0150261e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_B.json",
+   "json": [
+    "3",
+    "Phi_q0",
+    0
+   ]
+  },
+  {
+   "where": "Table 1, (W) Phi(q_0) >=, p = 4",
+   "printed": "2.2785439e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "4",
+    "Phi_q0",
+    0
+   ]
+  },
+  {
+   "where": "Table 1, (W) Phi(q_0) >= (second implementation), p = 4",
+   "printed": "2.2785462e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_B.json",
+   "json": [
+    "4",
+    "Phi_q0",
+    0
+   ]
+  },
+  {
+   "where": "Table 1, (W) xi(m_1) - I(m_1) <=, p = 3",
+   "printed": "3.4561599e-4",
+   "relation": "printed>=value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "3",
+    "f_m1",
+    1
+   ]
+  },
+  {
+   "where": "Table 1, (W) xi(m_1) - I(m_1) <=, p = 4",
+   "printed": "-1.2223937e-3",
+   "relation": "printed>=value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "4",
+    "f_m1",
+    1
+   ]
+  },
+  {
+   "where": "Table 1, (W) margin >=, p = 3",
+   "printed": "1.5588657e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "3",
+    "margin_W_lo"
+   ]
+  },
+  {
+   "where": "Table 1, (W) margin >= (second implementation), p = 3",
+   "printed": "1.5588662e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_B.json",
+   "json": [
+    "3",
+    "margin_W_lo"
+   ]
+  },
+  {
+   "where": "Table 1, (W) margin >=, p = 4",
+   "printed": "2.2785439e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_A_n2000.json",
+   "json": [
+    "4",
+    "margin_W_lo"
+   ]
+  },
+  {
+   "where": "Table 1, (W) margin >= (second implementation), p = 4",
+   "printed": "2.2785462e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-warm/warm_cert_B.json",
+   "json": [
+    "4",
+    "margin_W_lo"
+   ]
+  },
+  {
+   "where": "Table 1, (L) cover of [m_lo, 1], p = 3",
+   "printed": "75",
+   "relation": "len==",
+   "source": "pspin/cert-p3/landscape_cover.json",
+   "json": [
+    "cover"
+   ]
+  },
+  {
+   "where": "Table 1, (L) cover of [m_lo, 1], p = 4",
+   "printed": "67",
+   "relation": "len==",
+   "source": "pspin/cert-p4/landscape4_cover.json",
+   "json": [
+    "cover"
+   ]
+  },
+  {
+   "where": "Table 1, (L) max_i U_i <=, p = 3",
+   "printed": "2.0451151094",
+   "relation": "printed>=value",
+   "source": "pspin/cert-p3/landscape_cover.json",
+   "json": [
+    "worst_U_hi"
+   ]
+  },
+  {
+   "where": "Table 1, (L) max_i U_i <=, p = 4",
+   "printed": "2.7532998672",
+   "relation": "printed>=value",
+   "source": "pspin/cert-p4/landscape4_cover.json",
+   "json": [
+    "worst_U_hi"
+   ]
+  },
+  {
+   "where": "Table 1, (F) Par(mu*, 0) >=, p = 3",
+   "printed": "2.04575395212",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/assemble.log",
+   "regex": "P\\(mu\\*\\) lo (?P<x>[-0-9.e]+)"
+  },
+  {
+   "where": "Table 1, (F) Par(mu*, 0) >=, p = 4",
+   "printed": "2.75458158138",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/assembly4_result.json",
+   "json": [
+    "P_mu_star",
+    0
+   ]
+  },
+  {
+   "where": "Table 1, (F) certified min D >=, p = 3",
+   "printed": "-6.8e-5",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/assembly_result.json",
+   "json": [
+    "min_cell"
+   ]
+  },
+  {
+   "where": "Table 1, (F) certified min D >=, p = 4",
+   "printed": "-4.9e-6",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/assembly4_result.json",
+   "json": [
+    "min_cell"
+   ]
+  },
+  {
+   "where": "Table 1, (F) certified min D >= (second implementation), p = 3",
+   "printed": "-6.6e-7",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/second-implementation/FINAL_result.json",
+   "json": [
+    "min_D_lower"
+   ]
+  },
+  {
+   "where": "Table 1, (F) certified min D >= (second implementation), p = 4",
+   "printed": "-1.5e-7",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/second-implementation/FINAL4_result.json",
+   "json": [
+    "F",
+    "min_D_lower"
+   ]
+  },
+  {
+   "where": "Table 1, (F) L_F, p = 3",
+   "printed": "2.0456862122",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/assembly_result.json",
+   "json": [
+    "LB"
+   ]
+  },
+  {
+   "where": "Table 1, (F) L_F, p = 4",
+   "printed": "2.7545766959",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/assembly4_result.json",
+   "json": [
+    "LB"
+   ]
+  },
+  {
+   "where": "Table 1, (F) L_F (second implementation), p = 3",
+   "printed": "2.0457533010",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/second-implementation/FINAL_result.json",
+   "json": [
+    "P_plus_minD_lower"
+   ]
+  },
+  {
+   "where": "Table 1, (F) L_F (second implementation), p = 4",
+   "printed": "2.7545814375",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/second-implementation/FINAL4_result.json",
+   "json": [
+    "F",
+    "LB"
+   ]
+  },
+  {
+   "where": "Table 1, cold margin, p = 3",
+   "printed": "5.7e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/assemble.log",
+   "regex": "\\nmargin (?P<x>[-0-9.e]+) CERTIFIED"
+  },
+  {
+   "where": "Table 1, cold margin, p = 4",
+   "printed": "1.27e-3",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/assembly4_result.json",
+   "json": [
+    "cold_margin"
+   ]
+  },
+  {
+   "where": "Table 1, cold margin (second implementation), p = 3",
+   "printed": "6.3e-4",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p3/second-implementation/FINAL_result.json",
+   "json": [
+    "margin"
+   ]
+  },
+  {
+   "where": "Table 1, cold margin (second implementation), p = 4",
+   "printed": "1.28e-3",
+   "relation": "printed<=value",
+   "source": "pspin/cert-p4/second-implementation/FINAL4_result.json",
+   "json": [
+    "margin"
+   ]
+  },
+  {
+   "where": "Table 2, p = 3, Lambda_c",
+   "printed": "2.3396416",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "3",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 3, kappa_p >=",
+   "printed": "0.0303915",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "3",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 3, lambda >=",
+   "printed": "0.330457",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "3",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 3, det S >=",
+   "printed": "0.4471",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "3",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 3, B''(mu) <=",
+   "printed": "-1.5592",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "3",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 3, (N3) margin >=",
+   "printed": "2.062",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "3",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 4, Lambda_c",
+   "printed": "4.4788891",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "4",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 4, kappa_p >=",
+   "printed": "0.0131494",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "4",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 4, lambda >=",
+   "printed": "0.574280",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "4",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 4, det S >=",
+   "printed": "0.3432",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "4",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 4, B''(mu) <=",
+   "printed": "-10.484",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "4",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 4, (N3) margin >=",
+   "printed": "4.832",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "4",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 5, Lambda_c",
+   "printed": "6.2996014",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "5",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 5, kappa_p >=",
+   "printed": "0.00536355",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "5",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 5, lambda >=",
+   "printed": "0.734818",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "5",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 5, det S >=",
+   "printed": "0.2290",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "5",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 5, B''(mu) <=",
+   "printed": "-38.830",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "5",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 5, (N3) margin >=",
+   "printed": "7.286",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "5",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 6, Lambda_c",
+   "printed": "7.9416230",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "6",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 6, kappa_p >=",
+   "printed": "0.00227975",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "6",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 6, lambda >=",
+   "printed": "0.836921",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "6",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 6, det S >=",
+   "printed": "0.1458",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "6",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 6, B''(mu) <=",
+   "printed": "-111.40",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "6",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 6, (N3) margin >=",
+   "printed": "9.562",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "6",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 7, Lambda_c",
+   "printed": "9.4806791",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "7",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 7, kappa_p >=",
+   "printed": "0.00100692",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "7",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 7, lambda >=",
+   "printed": "0.900932",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "7",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 7, det S >=",
+   "printed": "0.09040",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "7",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 7, B''(mu) <=",
+   "printed": "-279.87",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "7",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 7, (N3) margin >=",
+   "printed": "11.73",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "7",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 8, Lambda_c",
+   "printed": "10.958556",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "8",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 8, kappa_p >=",
+   "printed": "4.57406e-4",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "8",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 8, lambda >=",
+   "printed": "0.940569",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "8",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 8, det S >=",
+   "printed": "0.05495",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "8",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 8, B''(mu) <=",
+   "printed": "-651.81",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "8",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 8, (N3) margin >=",
+   "printed": "13.83",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "8",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 9, Lambda_c",
+   "printed": "12.399558",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "9",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 9, kappa_p >=",
+   "printed": "2.11906e-4",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "9",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 9, lambda >=",
+   "printed": "0.964795",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "9",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 9, det S >=",
+   "printed": "0.03286",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "9",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 9, B''(mu) <=",
+   "printed": "-1450.5",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "9",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 9, (N3) margin >=",
+   "printed": "15.90",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "9",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 10, Lambda_c",
+   "printed": "13.818281",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "10",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 10, kappa_p >=",
+   "printed": "9.95243e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "10",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 10, lambda >=",
+   "printed": "0.979400",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "10",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 10, det S >=",
+   "printed": "0.01936",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "10",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 10, B''(mu) <=",
+   "printed": "-3138.7",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "10",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 10, (N3) margin >=",
+   "printed": "17.94",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "10",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 11, Lambda_c",
+   "printed": "15.223613",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "11",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 11, kappa_p >=",
+   "printed": "4.71947e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "11",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 11, lambda >=",
+   "printed": "0.988085",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "11",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 11, det S >=",
+   "printed": "0.01125",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "11",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 11, B''(mu) <=",
+   "printed": "-6672.2",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "11",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 11, (N3) margin >=",
+   "printed": "19.96",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "11",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 12, Lambda_c",
+   "printed": "16.620966",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "12",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 12, kappa_p >=",
+   "printed": "2.25347e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "12",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 12, lambda >=",
+   "printed": "0.993182",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "12",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 12, det S >=",
+   "printed": "6.470e-3",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "12",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 12, B''(mu) <=",
+   "printed": "-14022",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "12",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 12, (N3) margin >=",
+   "printed": "21.98",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "12",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 13, Lambda_c",
+   "printed": "18.013619",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "13",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 13, kappa_p >=",
+   "printed": "1.08147e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "13",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 13, lambda >=",
+   "printed": "0.996137",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "13",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 13, det S >=",
+   "printed": "3.680e-3",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "13",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 13, B''(mu) <=",
+   "printed": "-29246",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "13",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 13, (N3) margin >=",
+   "printed": "23.98",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "13",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 14, Lambda_c",
+   "printed": "19.403532",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "14",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 14, kappa_p >=",
+   "printed": "5.21015e-6",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "14",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 14, lambda >=",
+   "printed": "0.997830",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "14",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 14, det S >=",
+   "printed": "2.073e-3",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "14",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 14, B''(mu) <=",
+   "printed": "-60685",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "14",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 14, (N3) margin >=",
+   "printed": "25.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "14",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 15, Lambda_c",
+   "printed": "20.791869",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "15",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 15, kappa_p >=",
+   "printed": "2.51766e-6",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "15",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 15, lambda >=",
+   "printed": "0.998791",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "15",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 15, det S >=",
+   "printed": "1.158e-3",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "15",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 15, B''(mu) <=",
+   "printed": "-1.2545e5",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "15",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 15, (N3) margin >=",
+   "printed": "27.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "15",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 16, Lambda_c",
+   "printed": "22.179305",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "16",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 16, kappa_p >=",
+   "printed": "1.21958e-6",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "16",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 16, lambda >=",
+   "printed": "0.999331",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "16",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 16, det S >=",
+   "printed": "6.426e-4",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "16",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 16, B''(mu) <=",
+   "printed": "-2.5865e5",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "16",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 16, (N3) margin >=",
+   "printed": "29.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "16",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 17, Lambda_c",
+   "printed": "23.566234",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "17",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 17, kappa_p >=",
+   "printed": "5.91990e-7",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "17",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 17, lambda >=",
+   "printed": "0.999632",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "17",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 17, det S >=",
+   "printed": "3.541e-4",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "17",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 17, B''(mu) <=",
+   "printed": "-5.3211e5",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "17",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 17, (N3) margin >=",
+   "printed": "31.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "17",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 18, Lambda_c",
+   "printed": "24.952879",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "18",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 18, kappa_p >=",
+   "printed": "2.87857e-7",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "18",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 18, lambda >=",
+   "printed": "0.999798",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "18",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 18, det S >=",
+   "printed": "1.940e-4",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "18",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 18, B''(mu) <=",
+   "printed": "-1.0927e6",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "18",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 18, (N3) margin >=",
+   "printed": "33.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "18",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 19, Lambda_c",
+   "printed": "26.339365",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "19",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 19, kappa_p >=",
+   "printed": "1.40185e-7",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "19",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 19, lambda >=",
+   "printed": "0.999890",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "19",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 19, det S >=",
+   "printed": "1.057e-4",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "19",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 19, B''(mu) <=",
+   "printed": "-2.2409e6",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "19",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 19, (N3) margin >=",
+   "printed": "35.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "19",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 20, Lambda_c",
+   "printed": "27.725764",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "20",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 20, kappa_p >=",
+   "printed": "6.83617e-8",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "20",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 20, lambda >=",
+   "printed": "0.999940",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "20",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 20, det S >=",
+   "printed": "5.738e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "20",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 20, B''(mu) <=",
+   "printed": "-4.5896e6",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "20",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 20, (N3) margin >=",
+   "printed": "37.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "20",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 21, Lambda_c",
+   "printed": "29.112115",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "21",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 21, kappa_p >=",
+   "printed": "3.33771e-8",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "21",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 21, lambda >=",
+   "printed": "0.999968",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "21",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 21, det S >=",
+   "printed": "3.100e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "21",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 21, B''(mu) <=",
+   "printed": "-9.3893e6",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "21",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 21, (N3) margin >=",
+   "printed": "39.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "21",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 22, Lambda_c",
+   "printed": "30.498440",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "22",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 22, kappa_p >=",
+   "printed": "1.63139e-8",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "22",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 22, lambda >=",
+   "printed": "0.999982",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "22",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 22, det S >=",
+   "printed": "1.668e-5",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "22",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 22, B''(mu) <=",
+   "printed": "-1.9189e7",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "22",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 22, (N3) margin >=",
+   "printed": "41.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "22",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 23, Lambda_c",
+   "printed": "31.884751",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "23",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 23, kappa_p >=",
+   "printed": "7.98175e-9",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "23",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 23, lambda >=",
+   "printed": "0.999990",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "23",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 23, det S >=",
+   "printed": "8.951e-6",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "23",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 23, B''(mu) <=",
+   "printed": "-3.9181e7",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "23",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 23, (N3) margin >=",
+   "printed": "43.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "23",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 24, Lambda_c",
+   "printed": "33.271055",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "24",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 24, kappa_p >=",
+   "printed": "3.90870e-9",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "24",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 24, lambda >=",
+   "printed": "0.999995",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "24",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 24, det S >=",
+   "printed": "4.786e-6",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "24",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 24, B''(mu) <=",
+   "printed": "-7.9936e7",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "24",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 24, (N3) margin >=",
+   "printed": "45.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "24",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 25, Lambda_c",
+   "printed": "34.657354",
+   "relation": "rounds_to",
+   "source": "pspin/kappa-cert/kappa_cert.json",
+   "json": [
+    "results",
+    "25",
+    "form1",
+    "Lambda_c"
+   ]
+  },
+  {
+   "where": "Table 2, p = 25, kappa_p >=",
+   "printed": "1.91570e-9",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "25",
+    "kappa_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 25, lambda >=",
+   "printed": "0.999997",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "25",
+    "lambda_M_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 25, det S >=",
+   "printed": "2.552e-6",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "25",
+    "detS_lo"
+   ]
+  },
+  {
+   "where": "Table 2, p = 25, B''(mu) <=",
+   "printed": "-1.6295e8",
+   "relation": "printed>=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "25",
+    "reduced_curv_hi"
+   ]
+  },
+  {
+   "where": "Table 2, p = 25, (N3) margin >=",
+   "printed": "47.99",
+   "relation": "printed<=value",
+   "source": "pspin/triple-point/nm_inputs.json",
+   "json": [
+    "per_p",
+    "25",
+    "N3_margin_lo"
+   ]
+  },
+  {
+   "where": "Table 3, (C1) beta_hot",
+   "printed": "30847/20000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "hot",
+    "beta_hot"
+   ]
+  },
+  {
+   "where": "Table 3, (C1) pbar_H(beta) < 1/2 on (0, beta_hot]",
+   "printed": "certified",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "hot",
+    "status"
+   ]
+  },
+  {
+   "where": "Table 3, (C2) cells certified",
+   "printed": "certified",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "status"
+   ]
+  },
+  {
+   "where": "Table 3, (C7), (C8) Nishimori-line claims certified",
+   "printed": "certified",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "nishimori_line",
+    "status"
+   ]
+  },
+  {
+   "where": "Table 3, (C2) number of cells",
+   "printed": "1202",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "n_cells"
+   ]
+  },
+  {
+   "where": "Table 3, (C2) W_star",
+   "printed": "274797/1000000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "threshold"
+   ]
+  },
+  {
+   "where": "Table 3, (C3) 9 W_star^2 < 1",
+   "printed": "true",
+   "relation": "flag",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "thresholds",
+    "W_STAR",
+    "nine_w2_lt_1"
+   ]
+  },
+  {
+   "where": "Table 3, (C3) 2 P(W_star) < 1",
+   "printed": "true",
+   "relation": "flag",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "thresholds",
+    "W_STAR",
+    "two_P_lt_1"
+   ]
+  },
+  {
+   "where": "Table 3, (C4) pbar_H(beta) < 1/2 for all beta >= 349277/50000",
+   "printed": "True",
+   "relation": "flag",
+   "source": "lattice/cert/out/cert_arb.txt",
+   "regex": "\\(C\\) pbar_H\\(beta\\) < 1/2 for all beta >= 349277/50000 \\(= [0-9.]+ gamma\\): (?P<x>\\w+)"
+  },
+  {
+   "where": "Table 3, (C5) V",
+   "printed": "20529504599/100000000000",
+   "relation": "printed==value",
+   "source": "lattice/cert/out/cert_arb.txt",
+   "regex": "V = (?P<x>[0-9/]+) >= v_H"
+  },
+  {
+   "where": "Table 3, (C5) 1 - h(V) >=",
+   "printed": "0.332172142",
+   "relation": "printed<=value",
+   "source": "lattice/cert/out/cert_arb.txt",
+   "regex": "1 - h\\(V\\) >= (?P<x>[0-9.]+)"
+  },
+  {
+   "where": "Table 3, (C5) 1 - 2P(V) >= 0.91700",
+   "printed": "True",
+   "relation": "flag",
+   "source": "lattice/window/exact-checks/thresholds_exact.out",
+   "regex": "1-2P\\(V\\) >= 0\\.91700: (?P<x>\\w+)"
+  },
+  {
+   "where": "Table 3, (C6) kappabar_H >=",
+   "printed": "0.4914640678",
+   "relation": "printed<=value",
+   "source": "lattice/theory/h4_cert_digits.out",
+   "regex": "floor13 = (?P<x>\\d+) e-13"
+  },
+  {
+   "where": "Table 3, (C7) V_1",
+   "printed": "54076342043/250000000000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "nishimori_line",
+    "p1",
+    0,
+    "V"
+   ]
+  },
+  {
+   "where": "Table 3, (C7) h(V_1) <=",
+   "printed": "0.864508105378",
+   "relation": "printed>=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "nishimori_line",
+    "p1",
+    0,
+    "hV_float"
+   ]
+  },
+  {
+   "where": "Table 3, (C8) W_N",
+   "printed": "236586916634239/1000000000000000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "nishimori_line",
+    "display",
+    7,
+    "v_upper"
+   ]
+  },
+  {
+   "where": "Table 3, (C8) 1 - 2P(W_N) >= 0.770991",
+   "printed": "True",
+   "relation": "flag",
+   "source": "lattice/window/exact-checks/nishimori_reach.out",
+   "regex": ">= 770991/10\\^6: (?P<x>\\w+)"
+  },
+  {
+   "where": "Table 4, band 1, lower end",
+   "printed": "21037/10000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    0,
+    "lo"
+   ]
+  },
+  {
+   "where": "Table 4, band 1, upper end",
+   "printed": "11833/2500",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    0,
+    "hi"
+   ]
+  },
+  {
+   "where": "Table 4, band 1, lower end in units of beta_N (rounded inward)",
+   "printed": "0.600011",
+   "relation": "printed>=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    0,
+    "lo_over_gamma"
+   ]
+  },
+  {
+   "where": "Table 4, band 1, upper end in units of beta_N (rounded inward)",
+   "printed": "1.349987",
+   "relation": "printed<=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    0,
+    "hi_over_gamma"
+   ]
+  },
+  {
+   "where": "Table 4, band 1, E Y >=",
+   "printed": "0.593675",
+   "relation": "printed<=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    0,
+    "bound"
+   ]
+  },
+  {
+   "where": "Table 4, band 2, lower end",
+   "printed": "2279/1000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    1,
+    "lo"
+   ]
+  },
+  {
+   "where": "Table 4, band 2, upper end",
+   "printed": "45579/10000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    1,
+    "hi"
+   ]
+  },
+  {
+   "where": "Table 4, band 2, lower end in units of beta_N (rounded inward)",
+   "printed": "0.650009",
+   "relation": "printed>=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    1,
+    "lo_over_gamma"
+   ]
+  },
+  {
+   "where": "Table 4, band 2, upper end in units of beta_N (rounded inward)",
+   "printed": "1.299988",
+   "relation": "printed<=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    1,
+    "hi_over_gamma"
+   ]
+  },
+  {
+   "where": "Table 4, band 2, E Y >=",
+   "printed": "0.780507",
+   "relation": "printed<=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    1,
+    "bound"
+   ]
+  },
+  {
+   "where": "Table 4, band 3, lower end",
+   "printed": "24543/10000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    2,
+    "lo"
+   ]
+  },
+  {
+   "where": "Table 4, band 3, upper end",
+   "printed": "42073/10000",
+   "relation": "printed==value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    2,
+    "hi"
+   ]
+  },
+  {
+   "where": "Table 4, band 3, lower end in units of beta_N (rounded inward)",
+   "printed": "0.700008",
+   "relation": "printed>=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    2,
+    "lo_over_gamma"
+   ]
+  },
+  {
+   "where": "Table 4, band 3, upper end in units of beta_N (rounded inward)",
+   "printed": "1.199991",
+   "relation": "printed<=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    2,
+    "hi_over_gamma"
+   ]
+  },
+  {
+   "where": "Table 4, band 3, E Y >=",
+   "printed": "0.885170",
+   "relation": "printed<=value",
+   "source": "lattice/window/out/claims.json",
+   "json": [
+    "W_plus",
+    "bands",
+    2,
+    "bound"
+   ]
+  }
+ ]
+}

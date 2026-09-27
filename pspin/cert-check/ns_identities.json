@@ -1,0 +1,7 @@
+{
+ "I1 detH = (W^2/2) lam (W B - 1)": true,
+ "I2 detS = (W/2)(lam B + 2(mu - tau))": true,
+ "I3 detH = W detS (W - Sqq/detS)": true,
+ "I4 A_FM direct = simplified": true,
+ "I5 hsum = -(W/2) lam": true
+}

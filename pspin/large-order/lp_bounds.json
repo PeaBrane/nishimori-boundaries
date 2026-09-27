@@ -1,0 +1,424 @@
+{
+ "decision checks": {
+  "P2a Q(35) <= 35/T1_lo < 26": {
+   "ok": true,
+   "detail": "[25.2471668001, 25.2471668001]"
+  },
+  "P2b lambda_hat > 0 on [35, oo) (Q strictly increasing; Route A)": {
+   "ok": true,
+   "detail": "[0.999997649701, 0.999997649701]"
+  },
+  "P2c lambda_M >= 1 - (pi/2) Lambda^2 eps/T1_lo > 0": {
+   "ok": true,
+   "detail": "[0.999997649701, 0.999997649701]"
+  },
+  "P2d Omega B <= pi Lambda eps/T1_lo < 1 (also p u, and Lambda u/T1 <= 1 for the c_M step)": {
+   "ok": true,
+   "detail": "[1.34302820169e-7, 1.34302820169e-7]"
+  },
+  "P2f phi_xx >= phi_lo > 0": {
+   "ok": true,
+   "detail": "[1.38629397811, 1.38629397811]"
+  },
+  "P2g kappa/eps >= LB(35) > 0 (local cells only)": {
+   "ok": true,
+   "detail": "[0.946164263492, 0.946164263492]"
+  },
+  "P2h c_M < 2 ln2: 2(pi - 8/Lambda) - pi^2 Lambda^2 eps/T1_lo > 0": {
+   "ok": true,
+   "detail": "[5.82602768267, 5.82602768267]"
+  },
+  "P2i -m2/(2L) + m4/(8L^2) <= 0 for L >= 35: 35 >= m4_hi/(4 m2_lo) (cells)": {
+   "ok": true,
+   "detail": "0.70526946"
+  },
+  "P2k normalisation argument: Delta/(52 ln2) < 1": {
+   "ok": true,
+   "detail": "[1.37866278221e-7, 1.37866278221e-7]"
+  },
+  "P3 Q(Lambda) <= 35/(2 ln2 - delta(34.6)) < 26 on [34.6, 35]": {
+   "ok": true,
+   "detail": "[25.2471675713, 25.2471675713]"
+  },
+  "Q1 Q(Lambda) <= 1/(1/2 - 2L/3 - L^2/2) <= value at 0.4 < 26 on (0, 0.4]": {
+   "ok": true,
+   "detail": "[6.52173913043, 6.52173913043]"
+  },
+  "P4 for each p = 7..25: Q(Lambda_p^-) < p, Lambda_p^- >= 9, and every bound holds at Lambda_p^- (LB with local cells > 0)": {
+   "ok": true,
+   "detail": "see P4 table"
+  }
+ },
+ "stated-constant assertions": {
+  "S1 LP(a) width 2p ln2 - Lambda_c <= 4.97e-6": {
+   "ok": true,
+   "detail": "[4.96920434626e-6, 4.96920434626e-6]"
+  },
+  "S2 LP(b) lambda_M >= 1 - 2.4e-6": {
+   "ok": true,
+   "detail": "[0.999997649701, 0.999997649701]"
+  },
+  "S3 LP(b) Omega B <= 1.35e-7": {
+   "ok": true,
+   "detail": "[1.34302820169e-7, 1.34302820169e-7]"
+  },
+  "S4 LP(c) p u <= 1.35e-7 (same bound as Omega B)": {
+   "ok": true,
+   "detail": "[1.34302820169e-7, 1.34302820169e-7]"
+  },
+  "S5 LP(e) phi_xx >= 1.38629": {
+   "ok": true,
+   "detail": "[1.38629397811, 1.38629397811]"
+  },
+  "S6 LP(d) lower constant 0.94844 (Arb c0, m2)": {
+   "ok": true,
+   "detail": "[0.948441276758, 0.948441276758]"
+  },
+  "S7 LP(d) lower constant 0.94616 with local cells only": {
+   "ok": true,
+   "detail": "[0.946164263492, 0.946164263492]"
+  },
+  "S8 LP(d) upper constant 0.95880 (Arb c0)": {
+   "ok": true,
+   "detail": "[0.958792406815, 0.958792406815]"
+  },
+  "S9 LP(d) upper constant 0.958793 (Arb c0)": {
+   "ok": true,
+   "detail": "[0.958792406815, 0.958792406815]"
+  },
+  "S10 upper constant with local cells only <= 0.96105": {
+   "ok": true,
+   "detail": "[0.961044095492, 0.961044095492]"
+  },
+  "S11 normalisation eps(Lambda_c) 2^p sqrt(4 pi p ln2) <= 1 + 2.6e-6": {
+   "ok": true,
+   "detail": "[1.00000255354, 1.00000255354]"
+  },
+  "S12 R_-(35) <= 1.5e-5": {
+   "ok": true,
+   "detail": "[1.47840801162e-5, 1.47840801162e-5]"
+  },
+  "S13 R_+(35) <= 1.5e-5": {
+   "ok": true,
+   "detail": "[1.47673683453e-5, 1.47673683453e-5]"
+  },
+  "S14 T1 >= 1.3862941 for Lambda >= 35": {
+   "ok": true,
+   "detail": "[1.3862941643, 1.3862941643]"
+  },
+  "S15 Q(35) <= 25.2472": {
+   "ok": true,
+   "detail": "[25.2471668001, 25.2471668001]"
+  },
+  "S16 lambda_hat >= 0.9999976": {
+   "ok": true,
+   "detail": "[0.999997649701, 0.999997649701]"
+  },
+  "S17 c0 cells within [0.95652, 0.96103]": {
+   "ok": true,
+   "detail": "[0.956528101346, 0.961026874067]"
+  },
+  "S18 m2 cells within [0.72025, 0.72444]": {
+   "ok": true,
+   "detail": "[0.720250425344, 0.724433764129]"
+  },
+  "S19 m4 cells within [2.0200, 2.0319], hence m4 <= 2.032": {
+   "ok": true,
+   "detail": "[2.0200186454, 2.03188250455]"
+  },
+  "S20 K <= 0.735819": {
+   "ok": true,
+   "detail": "[0.735818295699, 0.735818295699]"
+  },
+  "S21 eps(35) <= 1.6933e-9 and delta(35) <= 1.969e-7": {
+   "ok": true,
+   "detail": "[1.69325594989e-9, 1.69325594989e-9] [1.96822256755e-7, 1.96822256755e-7]"
+  }
+ },
+ "consistency checks": {
+  "P1a closed form of c0 lies in the cell enclosure": {
+   "ok": true,
+   "detail": "consistency"
+  },
+  "P1c K closed form pi^3/8 - pi <= cell upper bound": {
+   "ok": true,
+   "detail": "consistency"
+  },
+  "A1c Arb c0 lies inside the local cell enclosure": {
+   "ok": true,
+   "detail": "two arithmetics agree"
+  },
+  "A2c Arb m2 lies inside the local cell enclosure": {
+   "ok": true,
+   "detail": "two arithmetics agree"
+  },
+  "A3c Arb m4 lies inside the local cell enclosure": {
+   "ok": true,
+   "detail": "two arithmetics agree"
+  },
+  "A4c closed form 4 pi log2 - pi^3/4 meets the Arb c0 ball": {
+   "ok": true,
+   "detail": "consistency"
+  },
+  "A5c Arb K <= local K upper bound, and meets pi^3/8 - pi": {
+   "ok": true,
+   "detail": "consistency"
+  }
+ },
+ "remarks (analytic, not checks)": {
+  "monotonicity": "Lambda^k eps(Lambda) decreases for Lambda > 2k - 1; only k <= 2 occurs, and T1_lo, phi_lo increase. Hence on [9, oo): LB, lambda_M bound, lambda_hat bound, phi_lo and the c_M margin increase; the Omega B bound, R_- , R_+ and the width bound decrease (Appendix B.4).",
+  "counts": {
+   "decision checks": 12,
+   "stated-constant assertions": 21,
+   "consistency checks": 7
+  }
+ },
+ "c0 cell enclosure": "[0.9565281013, 0.9610268741]",
+ "m2 cell enclosure": "[0.7202504253, 0.7244337641]",
+ "m4 cell enclosure": "[2.020018645, 2.031882505]",
+ "K cell upper bound": "0.735818295699",
+ "c0 closed form 4 pi log2 - pi^3/4 (interval)": "[0.95877519113945347813, 0.95877519113945347813]",
+ "c0 Arb enclosure (arb-constants)": "[0.9587751911394534781263, 0.9587751911394534781337]",
+ "m2 Arb enclosure (arb-constants)": "[0.7223391210811366640552, 0.7223391210811366640648]",
+ "m4 Arb enclosure (arb-constants)": "[2.02594193904624417646, 2.02594193904624417654]",
+ "eps(35)": "[1.6932559498948e-9, 1.6932559498948e-9]",
+ "delta(35) = pi eps (Lambda+2)": "[1.9682225675496e-7, 1.9682225675496e-7]",
+ "T1_lo(35) = 2 ln2 - delta(35)": "[1.3862941642976, 1.3862941642976]",
+ "Q(35) <= 35/T1_lo": "[25.24716680008, 25.24716680008]",
+ "lambda_hat_lo(35)": "[0.99999764970063, 0.99999764970063]",
+ "lambda_M >= (35)": "[0.99999764970065, 0.99999764970065]",
+ "Omega B, p u <= (35)": "[1.3430282016921e-7, 1.3430282016921e-7]",
+ "phi_lo(35)": "[1.3862939781144, 1.3862939781144]",
+ "R_-(35)": "[1.4784080116162e-5, 1.4784080116162e-5]",
+ "R_+(35)": "[1.4767368345298e-5, 1.4767368345298e-5]",
+ "c_M margin (35)": "[5.8260276826704, 5.8260276826704]",
+ "width bound Lambda delta/T1_lo at 35": "[4.9692043462606e-6, 4.9692043462606e-6]",
+ "normalisation upper bound": "[1.0000025535386, 1.0000025535386]",
+ "LB(35) with local cells": "[0.94616426349224, 0.94616426349224]",
+ "LB(35) with Arb c0, m2": "[0.94844127675818, 0.94844127675818]",
+ "upper constant with Arb c0": "[0.95879240681495, 0.95879240681495]",
+ "upper constant with local cells only": "[0.96104409549229, 0.96104409549229]",
+ "upper constant with the closed form of c0": "[0.95879240681495, 0.95879240681495]",
+ "safe-direction displays (Lambda >= 35)": {
+  "LB(35), Arb c0 and m2 (down, 5 d.p.)": "0.94844000",
+  "LB(35), local cells (down, 5 d.p.)": "0.94616000",
+  "upper constant, Arb c0 (up, 6 d.p.)": "0.958793000",
+  "upper constant, local cells (up, 5 d.p.)": "0.96105000",
+  "c0 cell lower bound (down, 7 d.p.)": "0.9565281000",
+  "c0 cell upper bound (up, 7 d.p.)": "0.9610269000",
+  "R_-(35) (up)": "1.48e-5",
+  "R_+(35) (up)": "1.48e-5",
+  "width (up)": "4.97e-6"
+ },
+ "P4 table": {
+  "7": {
+   "Lambda_p^-": "9.4084",
+   "Q_up(Lambda_p^-)": "6.999910600",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.1197000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.1220000",
+   "lambda_M >= (down, 6 d.p.)": "0.878136000",
+   "Omega B <= (up, 2 s.f.)": "0.026",
+   "phi_xx >= (down, 5 d.p.)": "1.3092400",
+   "c_M margin (down, 3 d.p.)": "3.81600",
+   "all": true
+  },
+  "8": {
+   "Lambda_p^-": "10.9196",
+   "Q_up(Lambda_p^-)": "7.997086400",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.4696000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.4720000",
+   "lambda_M >= (down, 6 d.p.)": "0.929546000",
+   "Omega B <= (up, 2 s.f.)": "0.013",
+   "phi_xx >= (down, 5 d.p.)": "1.3478200",
+   "c_M margin (down, 3 d.p.)": "4.37500",
+   "all": true
+  },
+  "9": {
+   "Lambda_p^-": "12.3808",
+   "Q_up(Lambda_p^-)": "8.998991300",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.6678000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.6701000",
+   "lambda_M >= (down, 6 d.p.)": "0.959342000",
+   "Omega B <= (up, 2 s.f.)": "0.0066",
+   "phi_xx >= (down, 5 d.p.)": "1.3667600",
+   "c_M margin (down, 3 d.p.)": "4.73500",
+   "all": true
+  },
+  "10": {
+   "Lambda_p^-": "13.807",
+   "Q_up(Lambda_p^-)": "9.998262100",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.7818000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.7841000",
+   "lambda_M >= (down, 6 d.p.)": "0.976619000",
+   "Omega B <= (up, 2 s.f.)": "0.0034",
+   "phi_xx >= (down, 5 d.p.)": "1.3762600",
+   "c_M margin (down, 3 d.p.)": "4.97700",
+   "all": true
+  },
+  "11": {
+   "Lambda_p^-": "15.2182",
+   "Q_up(Lambda_p^-)": "10.99937740",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.8482000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.8506000",
+   "lambda_M >= (down, 6 d.p.)": "0.986665000",
+   "Omega B <= (up, 2 s.f.)": "0.0018",
+   "phi_xx >= (down, 5 d.p.)": "1.3811200",
+   "c_M margin (down, 3 d.p.)": "5.14800",
+   "all": true
+  },
+  "12": {
+   "Lambda_p^-": "16.6144",
+   "Q_up(Lambda_p^-)": "11.99697740",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.8869000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.8892000",
+   "lambda_M >= (down, 6 d.p.)": "0.992439000",
+   "Omega B <= (up, 2 s.f.)": "0.00092",
+   "phi_xx >= (down, 5 d.p.)": "1.3836200",
+   "c_M margin (down, 3 d.p.)": "5.27200",
+   "all": true
+  },
+  "13": {
+   "Lambda_p^-": "18.0006",
+   "Q_up(Lambda_p^-)": "12.99151920",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9095000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9118000",
+   "lambda_M >= (down, 6 d.p.)": "0.995738000",
+   "Omega B <= (up, 2 s.f.)": "0.00048",
+   "phi_xx >= (down, 5 d.p.)": "1.3849000",
+   "c_M margin (down, 3 d.p.)": "5.36700",
+   "all": true
+  },
+  "14": {
+   "Lambda_p^-": "19.3868",
+   "Q_up(Lambda_p^-)": "13.98840960",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9228000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9251000",
+   "lambda_M >= (down, 6 d.p.)": "0.997618000",
+   "Omega B <= (up, 2 s.f.)": "0.00025",
+   "phi_xx >= (down, 5 d.p.)": "1.3855700",
+   "c_M margin (down, 3 d.p.)": "5.44200",
+   "all": true
+  },
+  "15": {
+   "Lambda_p^-": "20.773",
+   "Q_up(Lambda_p^-)": "14.98664030",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9307000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9330000",
+   "lambda_M >= (down, 6 d.p.)": "0.998679000",
+   "Omega B <= (up, 2 s.f.)": "0.00013",
+   "phi_xx >= (down, 5 d.p.)": "1.3859200",
+   "c_M margin (down, 3 d.p.)": "5.50400",
+   "all": true
+  },
+  "16": {
+   "Lambda_p^-": "22.1592",
+   "Q_up(Lambda_p^-)": "15.98562800",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9355000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9378000",
+   "lambda_M >= (down, 6 d.p.)": "0.999272000",
+   "Omega B <= (up, 2 s.f.)": "6.6e-5",
+   "phi_xx >= (down, 5 d.p.)": "1.3861000",
+   "c_M margin (down, 3 d.p.)": "5.55600",
+   "all": true
+  },
+  "17": {
+   "Lambda_p^-": "23.5454",
+   "Q_up(Lambda_p^-)": "16.98503940",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9386000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9409000",
+   "lambda_M >= (down, 6 d.p.)": "0.999601000",
+   "Omega B <= (up, 2 s.f.)": "3.4e-5",
+   "phi_xx >= (down, 5 d.p.)": "1.3861900",
+   "c_M margin (down, 3 d.p.)": "5.60100",
+   "all": true
+  },
+  "18": {
+   "Lambda_p^-": "24.9316",
+   "Q_up(Lambda_p^-)": "17.98468610",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9406000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9429000",
+   "lambda_M >= (down, 6 d.p.)": "0.999782000",
+   "Omega B <= (up, 2 s.f.)": "1.8e-5",
+   "phi_xx >= (down, 5 d.p.)": "1.3862400",
+   "c_M margin (down, 3 d.p.)": "5.64000",
+   "all": true
+  },
+  "19": {
+   "Lambda_p^-": "26.3178",
+   "Q_up(Lambda_p^-)": "18.98446250",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9420000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9443000",
+   "lambda_M >= (down, 6 d.p.)": "0.999882000",
+   "Omega B <= (up, 2 s.f.)": "9.0e-6",
+   "phi_xx >= (down, 5 d.p.)": "1.3862600",
+   "c_M margin (down, 3 d.p.)": "5.67400",
+   "all": true
+  },
+  "20": {
+   "Lambda_p^-": "27.704",
+   "Q_up(Lambda_p^-)": "19.98431010",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9430000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9453000",
+   "lambda_M >= (down, 6 d.p.)": "0.999936000",
+   "Omega B <= (up, 2 s.f.)": "4.6e-6",
+   "phi_xx >= (down, 5 d.p.)": "1.3862800",
+   "c_M margin (down, 3 d.p.)": "5.70500",
+   "all": true
+  },
+  "21": {
+   "Lambda_p^-": "29.0902",
+   "Q_up(Lambda_p^-)": "20.98419640",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9438000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9461000",
+   "lambda_M >= (down, 6 d.p.)": "0.999965000",
+   "Omega B <= (up, 2 s.f.)": "2.4e-6",
+   "phi_xx >= (down, 5 d.p.)": "1.3862800",
+   "c_M margin (down, 3 d.p.)": "5.73200",
+   "all": true
+  },
+  "22": {
+   "Lambda_p^-": "30.4764",
+   "Q_up(Lambda_p^-)": "21.98410380",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9445000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9468000",
+   "lambda_M >= (down, 6 d.p.)": "0.999981000",
+   "Omega B <= (up, 2 s.f.)": "1.3e-6",
+   "phi_xx >= (down, 5 d.p.)": "1.3862900",
+   "c_M margin (down, 3 d.p.)": "5.75800",
+   "all": true
+  },
+  "23": {
+   "Lambda_p^-": "31.8626",
+   "Q_up(Lambda_p^-)": "22.98402260",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9450000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9473000",
+   "lambda_M >= (down, 6 d.p.)": "0.999990000",
+   "Omega B <= (up, 2 s.f.)": "6.2e-7",
+   "phi_xx >= (down, 5 d.p.)": "1.3862900",
+   "c_M margin (down, 3 d.p.)": "5.78000",
+   "all": true
+  },
+  "24": {
+   "Lambda_p^-": "33.2488",
+   "Q_up(Lambda_p^-)": "23.98394750",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9456000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9478000",
+   "lambda_M >= (down, 6 d.p.)": "0.999994000",
+   "Omega B <= (up, 2 s.f.)": "3.2e-7",
+   "phi_xx >= (down, 5 d.p.)": "1.3862900",
+   "c_M margin (down, 3 d.p.)": "5.80100",
+   "all": true
+  },
+  "25": {
+   "Lambda_p^-": "34.635",
+   "Q_up(Lambda_p^-)": "24.98387570",
+   "kappa/eps >= (local cells; down, 4 d.p.)": "0.9460000",
+   "kappa/eps >= (Arb c0, m2; down, 4 d.p.)": "0.9483000",
+   "lambda_M >= (down, 6 d.p.)": "0.999997000",
+   "Omega B <= (up, 2 s.f.)": "1.7e-7",
+   "phi_xx >= (down, 5 d.p.)": "1.3862900",
+   "c_M margin (down, 3 d.p.)": "5.82100",
+   "all": true
+  }
+ }
+}

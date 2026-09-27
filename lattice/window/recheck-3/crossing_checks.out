@@ -1,0 +1,16 @@
+(A) gauge floor: cases 560  min(F - v_H(gamma(p))) = 0.0
+   v_H(gamma(0.0009)) ~ 0.205295046
+   v_H(gamma(0.001)) ~ 0.216305368
+   v_H(gamma(0.001058)) ~ 0.222406105
+   v_H(gamma(0.0011)) ~ 0.226706643
+   v_H(gamma(0.0012)) ~ 0.236586917
+(B) float crossing v_H(gamma(p)) = w_+ at p ~ 0.001633433; = W_STAR at p ~ 0.001633428; = v_P at p ~ 0.001058013
+(C) p=1/2000         v_upper=0.151912767454  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.984729
+(C) p=7/10000        v_upper=0.180931598537  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.961230
+(C) p=9/10000        v_upper=0.205295045990  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.917007
+(C) p=1/1000         v_upper=0.216305368171  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.882423
+(C) p=529/500000     v_upper=0.222406105286  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.856928
+(C) p=10581/10000000 v_upper=0.222416458126  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.856880
+(C) p=11/10000       v_upper=0.226706642765  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.835383
+(C) p=3/2500         v_upper=0.236586916634  < W_STAR: True  2P(v_upper)<1: True  1-2P(v_upper) = 0.770991
+(D) running min nonincreasing: True  w(10) = 0.05997299427005254  2sqrt(p(1-p)) = 0.05997299392226471

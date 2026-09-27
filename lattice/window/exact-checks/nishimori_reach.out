@@ -1,0 +1,35 @@
+design P = H4(1000,10); interval scale 10^-70
+
+(1)+(2) Nishimori identities and cross-validation against claims.json display enclosures
+  p = 1/2000         rho_c == m_c exact: [True, True, True]  sech [0.151912767453770891, 0.151912767453770891]  width 3.5e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 7/10000        rho_c == m_c exact: [True, True, True]  sech [0.180931598536875081, 0.180931598536875081]  width 3.5e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 9/10000        rho_c == m_c exact: [True, True, True]  sech [0.205295045989684943, 0.205295045989684943]  width 3.2e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 1/1000         rho_c == m_c exact: [True, True, True]  sech [0.216305368171488062, 0.216305368171488062]  width 3.2e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 529/500000     rho_c == m_c exact: [True, True, True]  sech [0.222406105285760517, 0.222406105285760517]  width 3.0e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 10581/10000000 rho_c == m_c exact: [True, True, True]  sech [0.222416458125952573, 0.222416458125952573]  width 3.1e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 11/10000       rho_c == m_c exact: [True, True, True]  sech [0.226706642765270838, 0.226706642765270838]  width 3.5e-68  signed/sech/claims overlap: True  sech inside claims: True
+  p = 3/2500         rho_c == m_c exact: [True, True, True]  sech [0.236586916634238767, 0.236586916634238767]  width 3.1e-68  signed/sech/claims overlap: True  sech inside claims: True
+
+(3) input (C8) at p_2 = 3/2500 from the claims.json display value (exact)
+  v_upper = 236586916634239/1000000000000000 = 0.236586916634239
+  v_upper < W_STAR: True;  3 v_upper < 1: True;  2P(v_upper) < 1: True
+  1 - 2P(v_upper) = 0.770991063639;  >= 770991/10^6: True
+  W_STAR - v_upper = 0.038210083365
+
+(4) the reach of the criterion v_H(gamma(p)) < w_+ (integer intervals)
+  p = 163/100000    rho_c == m_c: [True, True, True]  v_H in [0.274518855764126740, 0.274518855764126740]; signed form overlaps: True
+      v_upper < W_STAR: True;  v_upper < w_+ (2P < 1, 9v^2 < 1): True;  1 - 2P(v_upper) = 0.012557651;  w_+ margin via W_STAR - v_upper = 0.000278144235
+  p = 1633/1000000  rho_c == m_c: [True, True, True]  v_H in [0.274762315216291410, 0.274762315216291410]; signed form overlaps: True
+      v_upper < W_STAR: True;  v_upper < w_+ (2P < 1, 9v^2 < 1): True;  1 - 2P(v_upper) = 0.001594839;  w_+ margin via W_STAR - v_upper = 0.000034684783
+  p = 1634/1000000  rho_c == m_c: [True, True, True]  v_H in [0.274843412335439674, 0.274843412335439674]; signed form overlaps: True
+      v_lower > w_+ (2P(v_lower) > 1, 9v^2 < 1): True;  2P(v_lower) - 1 = 0.002090912
+  mpmath.iv upper value at 163/100000: 0.27451885576412675 (../recheck-3/nishimori_iv.out)
+
+(5) float evidence (mpmath, 30 digits): crossings of p -> v_H(gamma(p)) (sech form)
+  v_H(gamma(9/10000)) = 0.205295045989684943 (regression: cert/ value 0.2052950459896849...)
+  v_H(gamma(p)) = v_P   at p = 0.0010580129
+  v_H(gamma(p)) = w_+   at p = 0.0016334332   (w_+ = 0.274797452475)
+  v_H(gamma(p)) = W_STAR at p = 0.0016334277
+  v_H(gamma(p)) = w_HM  at p = 0.0019216028   (w_HM = 0.297098462164, root of 2 P_HM = 1)
+
+elapsed 0.4 s

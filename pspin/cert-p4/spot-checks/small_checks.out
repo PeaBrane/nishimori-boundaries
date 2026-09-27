@@ -1,0 +1,7 @@
+(1) e4 identity OK; bias = (24 j0/N^3) e4 = j0[N m^4 - (6 - 8/N) m^2 + 3/N - 6/N^2]
+(1b) covariance = N R^4/2 - 3R^2 + 4R^2/N + 3/(2N) - 3/N^2 (O(1) off N xi/beta^2) OK
+(2) beta_N = 2 j0 and log c0 = j0^2 N(1-1/N)(1-2/N)(1-3/N) OK
+(3) p=3 u0=0.060000, xi'(u0)-u0=6.9e-18
+(3) p=4 u0=0.212132, xi'(u0)-u0=-2.8e-17
+    exact: 2 (10/3)^2 (21/100)^3 = 0.2058 <= 0.21
+(4) max|coshY|/cosh c=1.000000 (<=1); min Re cosh^x/(kappa cosh^x c)=1.070693 (>=1); max|tanh|=1.000000 (<=1); max(|lc Y|-|c|-6/5)=-0.8534 (<=0); max|cosh^(x-1)|/bound=1.000000 (<=1)

@@ -1,0 +1,8 @@
+(a) sign+class law vs brute force: H4(2,1),(3,1),(2,2); p in {.07,.23,.41}, beta in {.35,1.1,2.3} (k=1), p in {.07,.41}, beta in {1.1,2.3} (k=2); 88 (beta,p,s) cases; max rel diff of F = 8.81e-15  [3.9s]
+(b) plus-boundary box 3x3, x=(1, 1): 161 contours; extraction failures 0; single-contour violations 0; union-bound violations 0 over 150 random signed K; max mu(sx=-1)/sum_A min(1,e^-2S) = 0.240  [4.0s]
+(b) plus-boundary box 4x3, x=(1, 1): 794 contours; extraction failures 0; single-contour violations 0; union-bound violations 0 over 60 random signed K; max mu(sx=-1)/sum_A min(1,e^-2S) = 0.008  [4.2s]
+(b) plus-boundary box 3x3, x=(0, 0): 97 contours; extraction failures 0; single-contour violations 0; union-bound violations 0 over 100 random signed K; max mu(sx=-1)/sum_A min(1,e^-2S) = 0.249  [4.2s]
+(c1) Newman inequality (Lemma 9.7), 60 random signed graphs (4-7 vertices, <=10 edges): 612 (eta,eta',f) triples, violations 0, min slack 1.53e-03
+(c2) exact law of the Newman coupling on 25 random signed graphs: max marginal error 5.6e-16; max mass with disagreement off R_T 0.0e+00; max |P(v in R_T) - Phi_p(v<->D)| 1.3e-15; min atom mass 9.3e-19  [5.4s]
+(d) Wheatstone bridge (non-SP): max |Z(W_p) - v_H(gamma(p))| = 6.7e-16; v nondecreasing on grid True: [0.06889, 0.19972, 0.37351, 0.56318, 0.73902, 0.85761, 0.95093, 0.99139, 0.9999]
+done [5.4s]

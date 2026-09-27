@@ -1,0 +1,5 @@
+intervals 67: contiguous on [2/5,1], all h>=0, P inside enclosures
+float worst endpoint U = 2.7532998660806864; interior-scan worst = np.float64(2.7532998660806864); max(U_float - U_hi) = 0.00e+00; certified worst U_hi = 2.7532998671863287
+(2 beta_c j0)^(-1/2) = 0.4301456576430762  g(2/5) = -0.010820266666666661  argmin g = 0.3041589114173663
+m1 = (2 beta_w j0)^(-1/2) = 0.6167509559639818  1/(2 j0) = 0.6167509559639818
+warm P(mu,0) - (log2 + bw^2/4) = -2.839916e-08; builder enclosure [-2.839937e-08, -2.839894e-08]

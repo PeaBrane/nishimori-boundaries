@@ -1,0 +1,39 @@
+{
+ "A1 G1' formula (reduction mod r^2-(1-t^2))": "PASS (exact)",
+ "A2 resultant identity": "PASS (exact)",
+ "A3 Sturm roots in (0,1]: p, A, B": [
+  2,
+  0,
+  0
+ ],
+ "A3 values at s=0 and s=1: p, A, B": [
+  [
+   27,
+   4
+  ],
+  [
+   27,
+   2
+  ],
+  [
+   -27,
+   -9
+  ]
+ ],
+ "A3 sign p at 0.65^2,0.66^2,0.94^2,0.95^2": [
+  1,
+  -1,
+  -1,
+  1
+ ],
+ "A3 Sturm roots of p in (0.65^2,0.66^2] and (0.94^2,0.95^2]": [
+  1,
+  1
+ ],
+ "A4 Shafer derivative identity": {
+  "simplify": "0",
+  "reduction": "PASS (exact)"
+ },
+ "A5 den' closed form": "PASS (exact)",
+ "A6 3 - 2P/(P-1) = (P-3)/(P-1)": "PASS (exact)"
+}

@@ -1,0 +1,23 @@
+  evaluated 0 points in 0.0s
+iter 0: points=98 cells=97 min D_hi(grid)=-6.467719019349e-07 certified LB=-6.898983480162e-07 cells to refine=5
+  evaluated 5 points in 8.1s
+iter 1: points=103 cells=102 min D_hi(grid)=-6.467719019349e-07 certified LB=-6.576019007231e-07 cells to refine=2
+  evaluated 2 points in 11.5s
+iter 2: points=105 cells=104 min D_hi(grid)=-6.467719019349e-07 certified LB=-6.511702799749e-07 cells to refine=0
+{
+ "min_D_certified_lower": -6.511702799749486e-07,
+ "min_D_lower_exact": "-61501294095890791414010688877647/94447329657392904273920000000000000000",
+ "worst_cell": [
+  "475832953/512000000",
+  "47590373/51200000"
+ ],
+ "worst_piece": [
+  0.9294303544921875,
+  0.9294325144348144
+ ],
+ "grid_min_D_upper": -6.467719019349406e-07,
+ "grid_argmin": "929223/1000000",
+ "n_points": 105,
+ "gamma_monotone_violations": [],
+ "runtime_s": 28.49417996406555
+}

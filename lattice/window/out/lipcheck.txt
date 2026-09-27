@@ -1,0 +1,41 @@
+lipcheck: float evidence for Lemma L, Lemma H, Lemma D (not a certificate)
+(1) unit: kappa_2'(beta) on 2481 log-spaced beta in [0.002, 40]
+    b0=    2: max kappa_2' = 1.120608 at beta = 1.10602 => max |dK_U/dbeta| <= 2.120608 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 0.769123; formula vs mp.diff max err 1.75e-78
+    b0=    3: max kappa_2' = 1.2103368 at beta = 1.19795 => max |dK_U/dbeta| <= 2.2103368 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 0.829729; formula vs mp.diff max err 1.57e-78
+    b0=    5: max kappa_2' = 1.3366779 at beta = 1.38863 => max |dK_U/dbeta| <= 2.3366779 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 0.965645; formula vs mp.diff max err 3.3e-77
+    b0=   10: max kappa_2' = 1.5043418 at beta = 1.73649 => max |dK_U/dbeta| <= 2.5043418 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 1.21723; formula vs mp.diff max err 1.78e-77
+    b0=  100: max kappa_2' = 1.859619 at beta = 3.14772 => max |dK_U/dbeta| <= 2.859619 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 2.27806; formula vs mp.diff max err 1.39e-77
+    b0= 1000: max kappa_2' = 1.9676159 at beta = 4.65479 => max |dK_U/dbeta| <= 2.9676159 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 3.42298; formula vs mp.diff max err 8.69e-78
+    b0= 1500: max kappa_2' = 1.9751715 at beta = 4.92235 => max |dK_U/dbeta| <= 2.9751715 (Lemma L bound 3); kappa_2' >= 1 first at beta ~ 3.61973; formula vs mp.diff max err 1.43e-77
+    Lemma H (b0=1000, beta <= 5/2): kappa_2' <= 2(b0+2)th^(b0+1)/(1-4th^(2b0+4)) at every grid point: True; max kappa_2' = 6.8696e-5, max bound = 0.0025687 (Lemma H needs <= 1)
+(2) chain, design P: max over the 66 classes of |d|K_H|/dbeta| on a beta grid
+    max |d|K_H|/dbeta| = 1.9502548 at beta = 3.65237, class (n1,n2,n3) = (0, 10, 0) (class labels of Prop. 9.3); bound 3
+(3a) brute force on the bare unit U (no terminal edges): max |dK_U/dbeta| vs closed form 1 + max kappa_2'
+    U(b0=2): |E| = 7, 128 disorders (all) x 800 betas in [0.02, 8]: brute max |dK_U/dbeta| = 2.120602 at beta = 1.109; closed-form max 1 + kappa_2' = 2.120602 (bound 3)
+    U(b0=3): |E| = 9, 512 disorders (all) x 800 betas in [0.02, 8]: brute max |dK_U/dbeta| = 2.210334 at beta = 1.199; closed-form max 1 + kappa_2' = 2.210334 (bound 3)
+    U(b0=4): |E| = 11, 151 disorders (all-plus + 150 random) x 800 betas in [0.02, 8]: brute max |dK_U/dbeta| = 2.280773 at beta = 1.298; closed-form max 1 + kappa_2' = 2.280773 (bound 3)
+    U(b0=5): |E| = 13, 151 disorders (all-plus + 150 random) x 800 betas in [0.02, 8]: brute max |dK_U/dbeta| = 2.336677 at beta = 1.388; closed-form max 1 + kappa_2' = 2.336677 (bound 3)
+    U(b0=6): |E| = 15, 151 disorders (all-plus + 150 random) x 800 betas in [0.02, 8]: brute max |dK_U/dbeta| = 2.382164 at beta = 1.468; closed-form max 1 + kappa_2' = 2.382164 (bound 3)
+(3) brute force: K_H(beta) = (1/2) log(Z(+,+)/Z(+,-)) by exhaustive interior sums; |dK_H/dbeta| by central differences (h=1e-5)
+    H4(2,1): |E| = 9, I = 6, 512 disorders x 120 betas in [0.05, 6]: max |dK_H/dbeta| = 1.093416 at beta = 1.05 (bound 3)
+    H4(3,1): |E| = 11, I = 8, 400 disorders x 120 betas in [0.05, 6]: max |dK_H/dbeta| = 1.123559 at beta = 1.05 (bound 3)
+    H4(2,2): |E| = 16, I = 11, 150 disorders x 120 betas in [0.05, 6]: max |dK_H/dbeta| = 1.180932 at beta = 1.05 (bound 3)
+    H4(4,1): |E| = 13, I = 10, 150 disorders x 120 betas in [0.05, 6]: max |dK_H/dbeta| = 1.148859 at beta = 1.05 (bound 3)
+(4) random series-parallel gadgets, K_e = beta J_e with J_e in [-1,1]: max |dK/dbeta| / lambda(H)
+    300 random trees (2-14 edges) + 20 parallel-bundle chains, 150 betas in [0.02, 6.9]: max |dK/dbeta|/lambda = 1.0 (must be <= 1); recursive derivative vs mp.diff max err 6.07e-100
+    identity sum of two series sensitivities = (a+b)/(1+ab): max deviation 8.33e-15
+(5) |d/dbeta log E exp(-2 s K_H(beta))| / (6 s) on beta in [1.9, 5.0], s in {0.25, 0.5, 0.75, 1} (must be <= 1)
+    max ratio = 0.323104
+(6) hot side, design P: u_H and pbar_H on 1200 betas in (0, 5/2]
+    nondecreasing on the grid: True; values at 5/2: u = 0.85068527, pbar = 0.91931922
+(7) Lemma D on H4(2,1): Z(W_p) = sum_J sqrt(W(J|+) W(J|-)) vs E_iid exp(-K_H(gamma(p) J)); monotone in p
+    p=0.01: Z(W_p) = 0.301270464774, E exp(-K_H) = 0.301270464774, diff 7.2e-16
+    p=0.03: Z(W_p) = 0.520951887037, E exp(-K_H) = 0.520951887037, diff 1.7e-15
+    p=0.06: Z(W_p) = 0.707531626921, E exp(-K_H) = 0.707531626921, diff 6.7e-16
+    p=0.10: Z(W_p) = 0.847226705638, E exp(-K_H) = 0.847226705638, diff 5.3e-15
+    p=0.15: Z(W_p) = 0.935616234023, E exp(-K_H) = 0.935616234023, diff 3.6e-15
+    p=0.20: Z(W_p) = 0.975531071961, E exp(-K_H) = 0.975531071961, diff 7.7e-15
+    p=0.30: Z(W_p) = 0.997938280178, E exp(-K_H) = 0.997938280178, diff 5.3e-15
+    p=0.40: Z(W_p) = 0.999967995719, E exp(-K_H) = 0.999967995719, diff 9.5e-15
+    Z(W_p) increasing in p: True
+lipcheck done [24.8s]

@@ -1,0 +1,16 @@
+verify out/claims.json (mpmath 60 digits; signed unit enumeration; exact Fraction checks); stride 1
+  thresholds: 2P(274797/1000000) < 1: True;  15 (129099/500000)^2 < 1: True
+  regression: mp E exp(-K_H(gamma(p0))) = 0.205295045989684943 (cert_arb 0.205295045989685): True
+  W_plus: 1202 cells, contiguous True, exact rational chain F_up (2+y)/(2-y) <= W_up <= 274797/1000000: True; mp F(bl,s) <= F_up on 1202 cells, min relative slack 3.4502e-18: True
+  W_two_point: 1147 cells, contiguous True, exact rational chain F_up (2+y)/(2-y) <= W_up <= 129099/500000: True; mp F(bl,s) <= F_up on 1147 cells, min relative slack 1.1738e-17: True
+  sharpness beta=98303/50000: mp w = 0.274829942374 >= w_lower 0.274829942374: True; threshold test fails exactly: True
+  sharpness beta=98233/20000: mp w = 0.274811066719 >= w_lower 0.274811042029: True; threshold test fails exactly: True
+  sharpness beta=100841/50000: mp w = 0.258225881118 >= w_lower 0.258225881118: True; threshold test fails exactly: True
+  sharpness beta=95917/20000: mp w = 0.258210361242 >= w_lower 0.258210325713: True; threshold test fails exactly: True
+  hot: mp pbar_H(beta_hot) = 0.499998297271898 <= stored upper < 1/2: True; mp u_H = 0.333331819798961 <= stored < 1/3: True; mp pbar_H(beta_hot3) = 0.333330519697879 < 1/3: True; Lemma H exact condition and tanh(B) <= theta_bar: True
+  hot sharpness: mp pbar_H(38559/25000) = 0.500006548357 >= 0.500006548357 > 1/2: True
+  v_P bracket: h(lo) < 1 < h(hi) exactly: True
+  N p1=1/1000: mp v_H(gamma(p1)) = 0.216305368171488 <= V = 0.216305368172; V < vP_lo; h(V) < 1 exactly: True
+  N p1=529/500000: mp v_H(gamma(p1)) = 0.222406105285761 <= V = 0.222406105286; V < vP_lo; h(V) < 1 exactly: True
+  N sharpness p=10581/10000000: mp v = 0.222416458125953 >= 0.222416458125952 > vP_hi: True
+VERIFY ALL OK: True   [18.5s]

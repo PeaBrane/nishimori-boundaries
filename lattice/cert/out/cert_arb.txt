@@ -1,0 +1,117 @@
+python-flint Arb, prec=160 bits; BETA_BIG=64; MIN_WIDTH=1/1000000000000
+(VP) v_P in [222407439452191/1000000000000000, 6950232482881/31250000000000]  h(lo)=0.99999999999999878 < 1 < h(hi)=1.00000000000002287
+     exact checks: h(1/5) = 189/320, h(3/25) = 150417/1849600
+=== design P (primary): b0=1000 k=10 p=9/10000  edges per bond = 20032  max degree 4
+  gamma(p) in [3.506107694698400, 3.506107694698400]
+  q = P(path negative) = 0.417484500222;  P(branch +,0,-) = 0.339027519033, 0.486382384593, 0.174590096374
+  unit classes P1,P2,P3 = 0.338879525353, 0.486382384593, 0.174738090055  (exact rationals; sum = 1 checked)
+  (W) v_H = E e^(-K_H(gamma)) in [0.205295045989685, 0.205295045989685]  (E sech K_H = [0.20529504598968494329552976364439136830342576790 +/- 7.99e-48]; overlap True)
+      exact Nishimori identities rho_c = |tanh| of class c at gamma: (True, True, True)
+      V = 20529504599/100000000000 >= v_H;  h(V) = 0.667827857259 < 1: True;  1 - h(V) >= 0.332172142741
+      v_H < vP_lo = 222407439452191/1000000000000000: True;  margin vP_lo - v_H >= 0.017112393463 (relative 7.6942%)
+      WARM OK: True   [0.8s]
+  (C) u_H(beta) < 1/3 for all beta >= 148399/20000 (= 2.1162927 gamma): True
+      pieces=3633 evals=3644 min width=7.63e-06; tail beta >= 64 (s <= 2.57e-56): u in [0.289804128488, 0.289804128488]
+      certified sup over the half-line: 0.333333270310  (margin to threshold 6.302e-08)   [0.2s]
+        sup_{beta >= 148399/20000 (2.1163 gamma)} u_H <= 0.333333270
+        sup_{beta >= 15/2 (2.1391 gamma)} u_H <= 0.328442506
+        sup_{beta >= 31/4 (2.2104 gamma)} u_H <= 0.313645547
+        sup_{beta >= 8 (2.2817 gamma)} u_H <= 0.304415460
+        sup_{beta >= 9 (2.5669 gamma)} u_H <= 0.291808922
+        sup_{beta >= 21/2 (2.9948 gamma)} u_H <= 0.289904147
+        sup_{beta >= 14 (3.9930 gamma)} u_H <= 0.289804220
+        sup_{beta >= 20 (5.7043 gamma)} u_H <= 0.289804128
+  (C) pbar_H(beta) < 1/2 for all beta >= 349277/50000 (= 1.9923917 gamma): True
+      pieces=3660 evals=3671 min width=7.63e-06; tail beta >= 64 (s <= 2.57e-56): pbar in [0.374342682992, 0.374342682992]
+      certified sup over the half-line: 0.499999587426  (margin to threshold 4.126e-07)   [0.2s]
+        sup_{beta >= 349277/50000 (1.9924 gamma)} pbar_H <= 0.499999587
+        sup_{beta >= 15/2 (2.1391 gamma)} pbar_H <= 0.427582390
+        sup_{beta >= 31/4 (2.2104 gamma)} pbar_H <= 0.407537289
+        sup_{beta >= 8 (2.2817 gamma)} pbar_H <= 0.394820284
+        sup_{beta >= 9 (2.5669 gamma)} pbar_H <= 0.377178071
+        sup_{beta >= 21/2 (2.9948 gamma)} pbar_H <= 0.374484340
+        sup_{beta >= 14 (3.9930 gamma)} pbar_H <= 0.374342812
+        sup_{beta >= 20 (5.7043 gamma)} pbar_H <= 0.374342683
+  (C) pbar_H(beta) > 1/3 for all beta >= 1753053847/500000000 (= 1.0000000 gamma): True
+      pieces=3872 evals=3872 min width=0.00952; tail beta >= 64 (s <= 2.57e-56): pbar in [0.374342682992, 0.374342682992]
+      certified inf over the half-line: 0.374342682992  (margin to threshold 4.101e-02)   [0.2s]
+  (PT) u_H(370997/50000) > 1/3: True   value in [0.333333460362, 0.333333460362]
+  (PT) pbar_H(698553/100000) > 1/2: True   value in [0.500000065524, 0.500000065524]
+=== design E (elementary): b0=1500 k=10 p=9/10000  edges per bond = 30032  max degree 4
+  gamma(p) in [3.506107694698400, 3.506107694698400]
+  q = P(path negative) = 0.466478897078;  P(branch +,0,-) = 0.284524199901, 0.497752671318, 0.217723128781
+  unit classes P1,P2,P3 = 0.284464078937, 0.497752671318, 0.217783249745  (exact rationals; sum = 1 checked)
+  (W) v_H = E e^(-K_H(gamma)) in [0.205647515811068, 0.205647515811068]  (E sech K_H = [0.2056475158110682719170511856549759558406358671 +/- 1.09e-47]; overlap True)
+      exact Nishimori identities rho_c = |tanh| of class c at gamma: (True, True, True)
+      V = 51411878953/250000000000 >= v_H;  h(V) = 0.673325904447 < 1: True;  1 - h(V) >= 0.326674095553
+      v_H < vP_lo = 222407439452191/1000000000000000: True;  margin vP_lo - v_H >= 0.016759923641 (relative 7.5357%)
+      WARM OK: True   [1.5s]
+  (C) pbar_H(beta) < 1/3 for all beta >= 790643/100000 (= 2.2550448 gamma): True
+      pieces=3602 evals=3614 min width=3.81e-06; tail beta >= 64 (s <= 2.57e-56): pbar in [0.283791805166, 0.283791805166]
+      certified sup over the half-line: 0.333333012173  (margin to threshold 3.212e-07)   [0.2s]
+        sup_{beta >= 790643/100000 (2.2550 gamma)} pbar_H <= 0.333333012
+        sup_{beta >= 8 (2.2817 gamma)} pbar_H <= 0.327757846
+        sup_{beta >= 9 (2.5669 gamma)} pbar_H <= 0.289960466
+        sup_{beta >= 21/2 (2.9948 gamma)} pbar_H <= 0.284100559
+        sup_{beta >= 14 (3.9930 gamma)} pbar_H <= 0.283792087
+        sup_{beta >= 20 (5.7043 gamma)} pbar_H <= 0.283791805
+  (C) u_H(beta) < 1/3 for all beta >= 180693/25000 (= 2.0614655 gamma): True
+      pieces=3648 evals=3662 min width=1.91e-06; tail beta >= 64 (s <= 2.57e-56): u in [0.208306043147, 0.208306043147]
+      certified sup over the half-line: 0.333333320510  (margin to threshold 1.282e-08)   [0.2s]
+        sup_{beta >= 180693/25000 (2.0615 gamma)} u_H <= 0.333333321
+        sup_{beta >= 15/2 (2.1391 gamma)} u_H <= 0.287818184
+        sup_{beta >= 31/4 (2.2104 gamma)} u_H <= 0.257867442
+        sup_{beta >= 8 (2.2817 gamma)} u_H <= 0.238841367
+        sup_{beta >= 9 (2.5669 gamma)} u_H <= 0.212519494
+        sup_{beta >= 21/2 (2.9948 gamma)} u_H <= 0.208516389
+        sup_{beta >= 14 (3.9930 gamma)} u_H <= 0.208306235
+        sup_{beta >= 20 (5.7043 gamma)} u_H <= 0.208306043
+  (C) pbar_H(beta) < 1/2 for all beta >= 353221/50000 (= 2.0148896 gamma): True
+      pieces=3655 evals=3666 min width=7.63e-06; tail beta >= 64 (s <= 2.57e-56): pbar in [0.283791805166, 0.283791805166]
+      certified sup over the half-line: 0.499999912705  (margin to threshold 8.729e-08)   [0.2s]
+        sup_{beta >= 353221/50000 (2.0149 gamma)} pbar_H <= 0.499999913
+        sup_{beta >= 15/2 (2.1391 gamma)} pbar_H <= 0.394526763
+        sup_{beta >= 31/4 (2.2104 gamma)} pbar_H <= 0.354086089
+        sup_{beta >= 8 (2.2817 gamma)} pbar_H <= 0.327611525
+        sup_{beta >= 9 (2.5669 gamma)} pbar_H <= 0.289939156
+        sup_{beta >= 21/2 (2.9948 gamma)} pbar_H <= 0.284099487
+        sup_{beta >= 14 (3.9930 gamma)} pbar_H <= 0.283792086
+        sup_{beta >= 20 (5.7043 gamma)} pbar_H <= 0.283791805
+  (PT) pbar_H(395321/50000) > 1/3: True   value in [0.333333588282, 0.333333588282]
+  (PT) u_H(722771/100000) > 1/3: True   value in [0.333335083904, 0.333335083904]
+  (PT) pbar_H(706441/100000) > 1/2: True   value in [0.500000662704, 0.500000662704]
+=== design B (b0=1500,k=8): b0=1500 k=8 p=87373/100000000  edges per bond = 24026  max degree 4
+  gamma(p) in [3.520932521298162, 3.520932521298162]
+  q = P(path negative) = 0.463725130018;  P(branch +,0,-) = 0.287464069176, 0.497368267616, 0.215167663209
+  unit classes P1,P2,P3 = 0.287400901637, 0.497368267616, 0.215230830748  (exact rationals; sum = 1 checked)
+  (W) v_H = E e^(-K_H(gamma)) in [0.185326452251474, 0.185326452251474]  (E sech K_H = [0.18532645225147359952967216271657333906691882159 +/- 6.54e-48]; overlap True)
+      exact Nishimori identities rho_c = |tanh| of class c at gamma: (True, True, True)
+      V = 46331613063/250000000000 >= v_H;  h(V) = 0.420640074690 < 1: True;  1 - h(V) >= 0.579359925310
+      v_H < vP_lo = 222407439452191/1000000000000000: True;  margin vP_lo - v_H >= 0.037080987201 (relative 16.6725%)
+      WARM OK: True   [1.8s]
+  (C) u_H(beta) < 1/3 for all beta >= 39157/5000 (= 2.2242403 gamma): True
+      pieces=3608 evals=3621 min width=1.91e-06; tail beta >= 64 (s <= 2.57e-56): u in [0.289648162373, 0.289648162373]
+      certified sup over the half-line: 0.333333241669  (margin to threshold 9.166e-08)   [0.1s]
+        sup_{beta >= 39157/5000 (2.2242 gamma)} u_H <= 0.333333242
+        sup_{beta >= 8 (2.2721 gamma)} u_H <= 0.323028311
+        sup_{beta >= 9 (2.5561 gamma)} u_H <= 0.294313904
+        sup_{beta >= 21/2 (2.9822 gamma)} u_H <= 0.289881567
+        sup_{beta >= 14 (3.9762 gamma)} u_H <= 0.289648375
+        sup_{beta >= 20 (5.6803 gamma)} u_H <= 0.289648162
+  (C) pbar_H(beta) < 1/2 for all beta >= 740433/100000 (= 2.1029457 gamma): True
+      pieces=3637 evals=3651 min width=1.91e-06; tail beta >= 64 (s <= 2.57e-56): pbar in [0.375641461218, 0.375641461218]
+      certified sup over the half-line: 0.499999883649  (margin to threshold 1.164e-07)   [0.1s]
+        sup_{beta >= 740433/100000 (2.1029 gamma)} pbar_H <= 0.499999884
+        sup_{beta >= 15/2 (2.1301 gamma)} pbar_H <= 0.484681546
+        sup_{beta >= 31/4 (2.2011 gamma)} pbar_H <= 0.445811342
+        sup_{beta >= 8 (2.2721 gamma)} pbar_H <= 0.419802975
+        sup_{beta >= 9 (2.5561 gamma)} pbar_H <= 0.381927338
+        sup_{beta >= 21/2 (2.9822 gamma)} pbar_H <= 0.375956819
+        sup_{beta >= 14 (3.9762 gamma)} pbar_H <= 0.375641749
+        sup_{beta >= 20 (5.6803 gamma)} pbar_H <= 0.375641461
+  (C) pbar_H(beta) > 1/3 for all beta >= 3520932521/1000000000 (= 1.0000000 gamma): True
+      pieces=3871 evals=3871 min width=0.0103; tail beta >= 64 (s <= 2.57e-56): pbar in [0.375641461218, 0.375641461218]
+      certified inf over the half-line: 0.375641461218  (margin to threshold 4.231e-02)   [0.1s]
+  (PT) u_H(783139/100000) > 1/3: True   value in [0.333333907622, 0.333333907622]
+  (PT) pbar_H(46277/6250) > 1/2: True   value in [0.500001541981, 0.500001541981]
+ALL CLAIMS CERTIFIED: True   total 5.7s

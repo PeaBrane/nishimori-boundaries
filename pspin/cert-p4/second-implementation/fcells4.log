@@ -1,0 +1,28 @@
+  evaluated 0 points in 0.0s, maxrss 36 MB
+iter 0: points=117 cells=116 min D_hi(grid)=-1.438104660168e-07 certified LB=-7.821491600894e-07 cells to refine=2
+  evaluated 2 points in 7.2s, maxrss 44 MB
+iter 1: points=119 cells=118 min D_hi(grid)=-1.438104660168e-07 certified LB=-1.438108770076e-07 cells to refine=0
+{
+ "min_D_certified_lower": -1.43810877007577e-07,
+ "min_D_lower_exact": "-1040760118984878599889964467175738389308999839659558735461827002991105/7237005577332262213973186563042994240829374041602535252466099000494570602496",
+ "worst_cell": [
+  "0",
+  "1/20"
+ ],
+ "worst_piece": [
+  0.0,
+  0.0006202026781889561
+ ],
+ "grid_min_D_upper": -1.4381046601682603e-07,
+ "grid_argmin": "0",
+ "n_points": 119,
+ "covers": [
+  "0",
+  "1"
+ ],
+ "gamma_monotone_violations": [],
+ "max_D_width": 5.4532311717474247e-11,
+ "max_G_width": 2.5960344984810035e-12,
+ "maxrss_MB": 44.0625,
+ "runtime_s": 16.317849159240723
+}

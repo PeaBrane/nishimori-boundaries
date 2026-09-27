@@ -1,0 +1,15 @@
+R = -32*delta**10/5 - 64*delta**9 - 288*delta**8 - 768*delta**7 - 1344*delta**6 - 8054*delta**5/5 - 1332*delta**4 - 738*delta**3 - 248*delta**2 - 34*delta + 23/5
+R(0) = 23/5
+R - Rhand = 0
+(21/20)^10 = 1.62889462678  e^0.5= 1.64872127070
+(21/20)^10 < 33/20 : True
+32/5*33/20 = 264/25 < 11: True
+lhs + d*Q = 0
+X(1/20)= 0.85399283  sqrt3= 1.7320508
+(u - 1)*(u**3 - u**2 - u - 1)
+tau= 1.83928675521416  delta_c= 0.103972702050197
+sqrt(12 delta) = h**2/(4*beta**2)
+margin = h**6/(1536*beta**5)
+8d - q-bound numerator factor: 4*delta**2*(2*delta**3 + 8*delta**2 + 12*delta + 7)/(delta + 1)**4
+0
+sqrt(3/2)-1 = 0.224745

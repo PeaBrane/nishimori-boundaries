@@ -1,0 +1,81 @@
+{
+ "U1 K <= K_up, closed form pi^3/8 - pi below it": {
+  "ok": true,
+  "detail": "K_up = 0.735818295699"
+ },
+ "U2a U(r) < 1/2 for r >= 0.82 (pi r^2 - K r - 2K > 0 at 0.82; increasing for r > K/(2pi))": {
+  "ok": true,
+  "detail": "[0.0373993064, 0.0373993064]; rounded down 0.0373000"
+ },
+ "U2b U(r) < 0 for r >= 1.41 (pi r^2 - (pi+K) r - K > 0 at 1.41; increasing for r > (pi+K)/(2pi))": {
+  "ok": true,
+  "detail": "[0.04283262041, 0.04283262041]; rounded down 0.0428000"
+ },
+ "U2c 0.82 > K/pi (U defined)": {
+  "ok": true,
+  "detail": "[0.585781762, 0.585781762]"
+ },
+ "U3 1 - 2r - 2r^2 > 1/2 at r = 0.2 (decreasing in r)": {
+  "ok": true,
+  "detail": "[0.52, 0.52]"
+ },
+ "U4a e > 1/2 on [0.2, 0.82] (cells)": {
+  "ok": true,
+  "detail": "min lower bound, rounded down: 0.609600"
+ },
+ "U4b e > 1/3 on [0.2, 1.41] (cells)": {
+  "ok": true,
+  "detail": "min lower bound, rounded down: 0.479100"
+ },
+ "U4c cells cover [0.2, 1.41]": {
+  "ok": true,
+  "detail": "242 cells"
+ },
+ "sample cell lower bounds (r_a, r_b, e_lo rounded down to 6 d.p.)": [
+  [
+   "0.2",
+   "0.205",
+   "0.75298400"
+  ],
+  [
+   "0.35",
+   "0.355",
+   "0.73746200"
+  ],
+  [
+   "0.5",
+   "0.505",
+   "0.69605800"
+  ],
+  [
+   "0.65",
+   "0.655",
+   "0.65356900"
+  ],
+  [
+   "0.8",
+   "0.805",
+   "0.61353700"
+  ],
+  [
+   "0.95",
+   "0.955",
+   "0.57639200"
+  ],
+  [
+   "1.1",
+   "1.105",
+   "0.54196000"
+  ],
+  [
+   "1.25",
+   "1.255",
+   "0.50996600"
+  ],
+  [
+   "1.4",
+   "1.405",
+   "0.48014600"
+  ]
+ ]
+}

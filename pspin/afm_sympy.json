@@ -1,0 +1,27 @@
+{
+ "grad_at_M": [
+  "0",
+  "0",
+  "0"
+ ],
+ "H_minus_paper": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+ "Ubb_minus_paper": "0",
+ "beta1_d_minus_Lambda_k": "Matrix([[0], [0], [0]])",
+ "H_y_minus_k": "Matrix([[0], [0], [0]])",
+ "kTy_minus_paper": "0",
+ "detS_minus_paper": "0",
+ "detS_minus_paper_mubar_form": "0",
+ "detH3_minus_paper": "0",
+ "detH3_minus_(Om detS - Sqq)": "0",
+ "Bt2_minus_paper": "0",
+ "Bt2_minus_detH3_over_detS": "0",
+ "A_mine_minus_paper": "0",
+ "A_mine_minus_certified_direct": "0",
+ "A_mine_minus_certified_simplified": "0",
+ "detHN_minus_(-Om^2/2 lam (1-OmB))": "0",
+ "detHN_over_detH3": "Lambda*(p - 1)/mu",
+ "NishimoriHessian_minus_cert": "Matrix([[0, 0], [0, 0]])",
+ "Nishimori_v_minus_cert": "Matrix([[0], [0]])",
+ "Nishimori_phibb_minus_cert": "0",
+ "NONZERO": []
+}
