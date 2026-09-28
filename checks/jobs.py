@@ -31,12 +31,12 @@ POINTS4_TIME = r'\[\n(?:\s+[-+0-9.eE]+,\n){4}\s+(?P<v>[0-9.eE+-]+)\n\s+\]'
 CELL_NOISE = [r'"min_D_lower_exact": "(?P<v>[^"]*)"', r'"max_[DG]_width": (?P<v>[-+0-9.eE]+)']
 
 JOBS = [
-    # ---------------------------------------------------------------- Section 5 (accumulation)
+    # ----------------------------------------------- Section 5 and Appendix A.5 (accumulation)
     dict(name="accum-cert", dir="accumulation", cmd=["accum_cert.py", "certificate_P_1x2.json"],
          stdout="accum_cert.out", mode="light", kind="exact"),
     dict(name="accum-sym", dir="accumulation", cmd=["accum_sym.py"], stdout="accum_sym.out",
          mode="light", kind="exact"),
-    # ---------------------------------------------------------------- Section 4 (hand algebra)
+    # ----------------------------------------- Section 4 and Appendices A.3-A.4 (hand algebra)
     dict(name="sk-hand-checks", dir="sk", cmd=["hand_checks.py"], stdout="hand_checks.out",
          mode="light", kind="exact"),
     # ---------------------------------------------------------------- Section 8: predicate (W)

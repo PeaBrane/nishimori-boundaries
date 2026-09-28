@@ -1,4 +1,4 @@
-"""Warm predicate (W) of Theorem 6.10 (thm:reduction) -- primary implementation (Table 1, tab:cert).
+"""Warm predicate (W) of Theorem 6.9 (thm:reduction) -- primary implementation (Table 1, tab:cert).
 
 Model on the Nishimori line: beta = 2 j0, xi(q) = 2 j0^2 q^p, theta(q) = (p-1) xi(q),
   Phi(q) = psi(xi'(q)) - (xi'(q) + theta(q))/2,   psi(r) = E log cosh(r + sqrt(r) g),

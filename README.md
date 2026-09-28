@@ -5,7 +5,7 @@ Nishimori point* (2026).
 
 The repository contains the programs, frozen inputs and certified outputs behind every
 computer-assisted statement of the paper: the accumulation certificate of the
-Sherrington-Kirkpatrick model (Section 5), the certificates for p = 3 and p = 4 (Section 8), the
+Sherrington-Kirkpatrick model (Section 5 and Appendix A.5), the certificates for p = 3 and p = 4 (Section 8 and Appendix A.8), the
 triple-point certificates for 3 <= p <= 25 and for large p (Section 7 and Appendix B), and the
 certified inputs of the decorated-lattice theorem (Section 9 and Appendix C). Section, theorem,
 table and equation numbers refer to the paper; the LaTeX label follows in parentheses, because
@@ -13,8 +13,8 @@ numbers can change between versions.
 
 ## Reproduce
 
-The default run needs Python 3.13 with mpmath, sympy and numpy. The full run also needs scipy
-and python-flint 0.9.0 (FLINT/Arb 3.6.0). Versions are pinned in [requirements.txt](requirements.txt).
+The default run needs Python 3.13 with mpmath, sympy, numpy and scipy (the replays of the (L)
+covers import it). The full run also needs python-flint 0.9.0 (FLINT/Arb 3.6.0). Versions are pinned in [requirements.txt](requirements.txt).
 
 ```sh
 uv venv --python 3.13
@@ -56,20 +56,20 @@ programs write their outputs next to themselves, so a manual run overwrites the 
 arithmetic. The paper rounds the certified enclosures outward (lower bounds down, upper bounds up)
 in its tables.
 
-### Sections 4 and 5: SK model
+### Sections 4 and 5, Appendices A.3-A.5: SK model
 
 | paper statement | program | stored output | arithmetic |
 |---|---|---|---|
-| Lemma 5.8 (`lem:accumulator`), Section 5.6 (`sec:accum-cert`): B from the certificate P of eq. (14) (`eq:cert-P`) by eq. (15) (`eq:cert-B`) equals the displayed polynomial; (V1) by Bernstein subdivision (13 boxes), (V2), (V3), the Step 1 inequality 54l^4 > (8l-2)^3 | [accumulation/accum_cert.py](accumulation/accum_cert.py) with [certificate_P_1x2.json](accumulation/certificate_P_1x2.json) | `accum_cert.out` (ends with `ALL OK`) | exact rationals, standard library |
-| identities of Lemmas 5.5 (`lem:omega`) and 5.6 (`lem:reduction`), the completion of the square behind (15), the constants of Lemma 5.8 and of (V2)-(V3) | [accumulation/accum_sym.py](accumulation/accum_sym.py) | `accum_sym.out` | SymPy |
-| algebra and constants of the hand proofs of Lemma 4.8 (`lem:y`) (c),(d), Corollary 4.12 (`cor:envelope`) and Remark 4.14 (`rem:spiked`) | [sk/hand_checks.py](sk/hand_checks.py) | `hand_checks.out` | SymPy; prints values, asserts nothing |
+| Lemma A.9 (`lem:accumulator`), Appendix A.5.5 (`sec:accum-cert`): B from the certificate P of eq. (27) (`eq:cert-P`) by eq. (28) (`eq:cert-B`) equals the displayed polynomial; (V1) by Bernstein subdivision (13 boxes), (V2), (V3), the Step 1 inequality 54l^4 > (8l-2)^3 | [accumulation/accum_cert.py](accumulation/accum_cert.py) with [certificate_P_1x2.json](accumulation/certificate_P_1x2.json) | `accum_cert.out` (ends with `ALL OK`) | exact rationals, standard library |
+| identities of Lemmas A.6 (`lem:omega`) and A.7 (`lem:reduction`), the completion of the square behind (28), the constants of Lemma A.9 and of (V2)-(V3) | [accumulation/accum_sym.py](accumulation/accum_sym.py) | `accum_sym.out` | SymPy |
+| algebra and constants of the hand proofs of Lemma A.2 (`lem:y`) (c),(d), Corollary 4.9 (`cor:envelope`) and Remark A.4 (`rem:spiked`) | [sk/hand_checks.py](sk/hand_checks.py) | `hand_checks.out` | SymPy; prints values, asserts nothing |
 
-Sections 3 and 4 contain no computer-assisted statement; `sk/hand_checks.py` is a recheck of hand
+Sections 3 and 4 and Appendices A.2-A.4 contain no computer-assisted statement; `sk/hand_checks.py` is a recheck of hand
 algebra, not an input of any proof.
 
-### Section 8: p = 3 and p = 4 (Theorems 8.1 `thm:p3`, 8.2 `thm:p4`, Table 1 `tab:cert`)
+### Section 8 and Appendix A.8: p = 3 and p = 4 (Theorems 8.1 `thm:p3`, 8.2 `thm:p4`, Table 1 `tab:cert`)
 
-Both theorems follow from Theorem 6.10 (`thm:reduction`) once the predicates (W), (L) and (F) are
+Both theorems follow from Theorem 6.9 (`thm:reduction`) once the predicates (W), (L) and (F) are
 certified. Each predicate has a primary certificate and a second implementation written separately
 (`second-implementation/`); for (W) both are in `pspin/cert-warm/`.
 
@@ -230,10 +230,10 @@ and the certificate is the replay of the frozen cover.
 ## Layout
 
 ```text
-accumulation/                Section 5.6: certificate P and its exact check
-sk/                          Section 4: SymPy recheck of hand algebra
-pspin/cert-warm/             Section 8, predicate (W): primary and second implementation
-pspin/cert-p3/, cert-p4/     Section 8, predicates (L) and (F); second-implementation/; p = 4 spot-checks/
+accumulation/                Appendix A.5.5: certificate P and its exact check
+sk/                          Section 4, Appendices A.3-A.4: SymPy recheck of hand algebra
+pspin/cert-warm/             Section 8, Appendix A.8, predicate (W): primary and second implementation
+pspin/cert-p3/, cert-p4/     Section 8, Appendix A.8, predicates (L) and (F); second-implementation/; p = 4 spot-checks/
 pspin/kappa-cert/            Appendix B.5: Arb certificate of Lambda_c and the signs, 3 <= p <= 25
 pspin/cert-check/            Appendix B.5: remaining conditions, python-flint tests, exact identities
 pspin/triple-point/          Table 2 and C_FM > 0 from the stored balls

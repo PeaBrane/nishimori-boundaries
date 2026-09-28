@@ -1,4 +1,4 @@
-"""Rigorous building blocks of the second implementation (Section 8, sec:certificates).
+"""Rigorous building blocks of the second implementation (Appendix A.8, app:cert34).
 
 Interval arithmetic: mpmath.iv (directed rounding of mpf exp/log/cos).
 Large convolutions: numpy float64 with a Higham forward-error bound

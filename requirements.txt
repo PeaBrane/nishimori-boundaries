@@ -1,5 +1,5 @@
-# Python 3.13. The default run (run_all.py) needs mpmath, sympy and numpy;
-# the full run (run_all.py --full) also needs scipy (the (L) searches) and python-flint (Arb).
+# Python 3.13. The default run (run_all.py) needs mpmath, sympy, numpy and scipy (the (L) cover
+# replays import it); the full run (run_all.py --full) also needs python-flint (Arb).
 mpmath==1.3.0
 sympy==1.14.0
 numpy==2.2.6

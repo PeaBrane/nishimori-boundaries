@@ -1,4 +1,4 @@
-"""Exact certificate check for Lemma 5.8 (lem:accumulator) and Section 5.6 (sec:accum-cert) of the paper.
+"""Exact certificate check for Lemma A.9 (lem:accumulator) and Appendix A.5.5 (sec:accum-cert) of the paper.
 
 Everything is exact rational arithmetic (fractions.Fraction); no floating point enters any decision.
 

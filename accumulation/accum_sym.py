@@ -1,8 +1,8 @@
-"""Symbolic checks of identities of Section 5 of the paper: Lemmas 5.5 (lem:omega) and 5.6 (lem:reduction),
-the completion of the square behind eq. (15) (eq:cert-B), and the constants of Lemma 5.8 (lem:accumulator)
+"""Symbolic checks of identities of Appendix A.5 of the paper: Lemmas A.6 (lem:omega) and A.7 (lem:reduction),
+the completion of the square behind eq. (28) (eq:cert-B), and the constants of Lemma A.9 (lem:accumulator)
 and of (V2)-(V3).
 
-Notation follows Section 5, except that the atom mass lambda is written m and the
+Notation follows Section 5 and Appendix A.5, except that the atom mass lambda is written m and the
 trajectory variable k is written D: V is a generic smooth function, m > 0 a constant,
 a = x V'' - V', K2 = V'''^2 - 2 m V''^3,
 Pi = x e^{-mV} [ int_0^x y int_0^y e^{mV} K2 - 2 int_0^x e^{mV} V''^2 ] + 2 V'^2,

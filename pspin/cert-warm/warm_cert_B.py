@@ -1,4 +1,4 @@
-"""Warm predicate (W) of Theorem 6.10 (thm:reduction) -- second implementation (Table 1, tab:cert).
+"""Warm predicate (W) of Theorem 6.9 (thm:reduction) -- second implementation (Table 1, tab:cert).
 
 Same quantities as warm_cert_A.py (see its docstring), computed without numpy intervals, Simpson
 rules, libm or rational series:

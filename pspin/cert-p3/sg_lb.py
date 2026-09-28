@@ -1,5 +1,5 @@
 """Frank-Wolfe lower bound for the zero-field 3-spin free energy at beta=5/2:
-F >= P(mu*) + min_u D(u), mu* = x delta_0 + (1-x) delta_q.  Formulas: Proposition 6.8 (prop:fw) and Lemma 6.9 (lem:D)."""
+F >= P(mu*) + min_u D(u), mu* = x delta_0 + (1-x) delta_q.  Formulas: Proposition 6.7 (prop:fw) and Lemma 6.8 (lem:D)."""
 import sys, json, math
 from fractions import Fraction as Fr
 import numpy as np

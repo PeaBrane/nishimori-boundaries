@@ -1,5 +1,5 @@
-"""SymPy recheck of the algebra and constants of hand proofs in Section 4 of the paper: Lemma 4.8
-(lem:y) (c),(d), Corollary 4.12 (cor:envelope) and Remark 4.14 (rem:spiked).  It asserts nothing and
+"""SymPy recheck of the algebra and constants of hand proofs in Section 4 and Appendices A.3-A.4 of the paper: Lemma A.2
+(lem:y) (c),(d), Corollary 4.9 (cor:envelope) and Remark A.4 (rem:spiked).  It asserts nothing and
 certifies nothing the proofs rely on; it prints each quantity (stored output: hand_checks.out)."""
 import sympy as sp
 import sys
@@ -37,7 +37,7 @@ print('sqrt(12 delta) =',sp.simplify(sp.sqrt(12*dl)))
 lower=dl/2*(h**2/(2*B)-h**2/(4*B))
 print('margin =',sp.simplify(lower))
 # strict: h^2/(beta(1+delta)) >= h^2/(2beta)? needs delta<=1
-# Remark 4.14 (rem:spiked): 4(2d+d^2)/(1+d)^4 <= 8d
+# Remark A.4 (rem:spiked): 4(2d+d^2)/(1+d)^4 <= 8d
 expr=8*d-4*(2*d+d**2)/(1+d)**4
 print('8d - q-bound numerator factor:',sp.factor(sp.together(expr)))
 # check lambda=(1+d)^2: 4(lambda-1)/lambda^2
